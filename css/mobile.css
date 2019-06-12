@@ -93,15 +93,41 @@ a {
 	height: calc(100vh - 65px);
 	color: #fff;
 }
+.mainredchild .swiper-button-prev,
+.mainredchild .swiper-container-rtl,
+.mainredchild .swiper-button-next {
+	background-image: none;
+}
+
+/* #partners */
 #partners {
 	background-color: lightblue;
 }
+
+/* #top */
 #top {
 	background-color: #AF0017;
 }
 #top p {
 	margin-top: 20px;
+	font-size: 15px;
 }
+#top .swiper-button-prev {
+	width: 240px;
+	height: 61px;
+	transform: rotate(-90deg);
+	font-size: 44px;
+	left: -50px;
+}
+#top .swiper-button-next {
+	width: 256px;
+	height: 61px;
+	transform: rotate(90deg);
+	font-size: 44px;
+	right: -58px;
+}
+
+/* #portfolio */
 #portfolio {
 	background-color: lightgreen;
 }
