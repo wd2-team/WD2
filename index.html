@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <title>WD2</title>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/swiper.css">
     <script src="js/swiper.js"></script>
@@ -19,18 +18,38 @@
 </head>
 <body>
 <div id="wrapper">
-    <header></header>
     <div id="mainred">
-        <div id="partners" class="mainredchild">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div id="partners" class="mainredchild swiper-slide">
             
-        </div><!-- #partners -->
-        <div id="top" class="mainredchild">
+                </div><!-- #partners -->
+                <div id="top" class="mainredchild swiper-slide">
+                    <p>WEB DESIGN AND DEVELOPMENT</p>
+                </div><!-- #top -->
+                <div id="portfolio" class="mainredchild swiper-slide">
             
-        </div><!-- #top -->
-        <div id="portfolio" class="mainredchild">
-            
-        </div><!-- #portfolio -->
+                </div><!-- #portfolio -->
+            </div><!-- .swiper-wrapper -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div><!-- .swiper-container -->
     </div><!-- #mainred -->
-    <footer></footer>
+    <footer>
+        <ul>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICE</a></li>
+            <li><a href="">ARTICLE</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <ul>
+            <li>© WD2 2019. All rights reserved.</li>
+        </ul>
+        <ul>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </ul>
+    </footer>
 </div><!-- #wrapper -->
+<script type="text/javascript" src="js/main.js"></script>
 </body>
