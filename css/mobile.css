@@ -69,6 +69,10 @@ body {
 a {
 	text-decoration: none;
 }
+img {
+	width: 85px;
+	height: auto;
+}
 .clear {
 	clear: both;
 	content: ".";
@@ -103,6 +107,16 @@ a {
 #partners {
 	background-color: lightblue;
 }
+#partners .swiper-button-next {
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    position: static;
+}
+#partners .swiper-button-next img {
+	width: 72px;
+	height: auto;
+}
 
 /* #top */
 #top {
@@ -126,10 +140,23 @@ a {
 	font-size: 44px;
 	right: -58px;
 }
+#top img {
+	margin-top: calc(50vh - 42px - 40px - 33px);
+}
 
 /* #portfolio */
 #portfolio {
 	background-color: lightgreen;
+}
+#portfolio .swiper-button-prev {
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    position: static;
+}
+#portfolio .swiper-button-prev img {
+	width: 72px;
+	height: auto;
 }
 
 /* footer */
