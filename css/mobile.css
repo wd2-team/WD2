@@ -132,7 +132,7 @@ img {
 /* indexred */
 /* .mainredchild */
 .mainredchild {
-	height: calc(100vh - 65px);
+	height: calc(90vh - 65px);
 	color: #fff;
 	overflow-y: scroll;
 }
