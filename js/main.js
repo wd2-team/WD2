@@ -6,7 +6,9 @@ $(function(){
     		nextEl: '.swiper-button-next',
     		prevEl: '.swiper-button-prev',
     	},
-    	initialSlide: 1
+    	initialSlide: 1,
+		noSwiping: true,
+		noSwipingClass: 'no_swipe',
 	});
 });
 
