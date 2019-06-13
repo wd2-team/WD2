@@ -271,11 +271,17 @@ footer {
 	line-height: 16px;
 }
 footer ul {
-	margin-top: 13px;
+	margin: 13px 21px;
 }
 footer ul:nth-child(1) li {
 	display: inline-block;
-	margin: 0 9px;
+	margin: 0 calc(3.5% + (100vw - 320px) / 8);
+}
+footer ul:nth-child(1) li:first-child {
+	margin-left: 0;
+}
+footer ul:nth-child(1) li:last-child {
+	margin-right: 0;
 }
 footer ul:nth-child(2) {
 	text-align: left;
