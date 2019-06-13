@@ -257,9 +257,17 @@ img {
 	left: 50%;
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
+	line-height: 14px;
+	width: 140px;
 }
-#portfolio ul li a span {
+#portfolio ul li a span.porttitle {
+	font-size: 16px;
+}
+#portfolio ul li a span.porturl {
+	display: block;
 	font-size: 10px;
+	transform: scale(0.8);
+	line-height: 21px;
 }
 
 /* footer */
