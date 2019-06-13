@@ -54,7 +54,7 @@ table {
 }
 html,
 body {
- 	font-family: bio-sans, "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+ 	font-family: bio-sans, "平成角ゴシック体", "平成角ゴシック", "ＭＳ Ｐゴシック", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 	background-color: #fff;
 	color: #fff;
 	width: 100vw;
@@ -91,11 +91,50 @@ img {
 	box-sizing: border-box;
 }
 
+/* .modal */
+.modal-content {
+    position:fixed;
+    display:none;
+    z-index:2;
+    width:50%;
+    margin:0;
+    padding:10px 20px;
+    border:2px solid #aaa;
+    background:#fff;
+}
+.modal-content p {
+    margin:0;
+    padding:0;
+}
+.modal-overlay {
+    z-index:1;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:120%;
+    background-color:rgba(0,0,0,0.75);
+}
+.modal-open:hover {
+    cursor:pointer;
+    color:#f00;
+}
+.modal-close {
+    color:#00f;
+    text-decoration:underline;
+}
+.modal-close:hover {
+    cursor:pointer;
+    color:#f00;
+}
+
 /* indexred */
 /* .mainredchild */
 .mainredchild {
 	height: calc(100vh - 65px);
 	color: #fff;
+	overflow-y: scroll;
 }
 .mainredchild .swiper-button-prev,
 .mainredchild .swiper-container-rtl,
@@ -179,6 +218,51 @@ img {
 #portfolio .swiper-button-prev img {
 	width: 72px;
 	height: auto;
+}
+#portfolio h1 {
+	font-size: 30px;
+	margin-top: 24px;
+}
+#portfolio ul {
+	margin-top: 25px;
+	margin-bottom: 38.5px;
+	font-size: 0;
+}
+#portfolio ul li {
+	width: 140px;
+	height: 140px;
+	display: inline-block;
+	background-color: #fff;
+	margin: 6.5px;
+	font-size: 17px;
+}
+#portfolio ul li a {
+	color: #af0017;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 140px;
+}
+#portfolio ul li a span {
+	font-size: 10px;
+}
+
+.sample1 {
+	border-collapse: separate;
+	border-spacing: 3px 0;
+}
+/* sample1はtable-cellで縦横中央揃えに */
+.sample1 li {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 140px;
+	height: 140px;
+	background-color: #fff;
+}
+/* aタグのリンクなのでクリックできる範囲を広げます */
+.sample1 a {
+	padding: 0;
 }
 
 /* footer */
