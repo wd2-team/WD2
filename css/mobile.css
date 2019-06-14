@@ -136,7 +136,7 @@ img {
 /* indexred */
 /* .mainredchild */
 .mainredchild {
-	height: calc(88vh - 65px);
+	height: calc(100vh - 65px);
 	color: #fff;
 	overflow-y: scroll;
 }
