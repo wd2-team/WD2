@@ -53,6 +53,10 @@ table {
 	box-sizing: border-box;
 }
 html,
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
 body {
  	font-family: bio-sans, "平成角ゴシック体", "平成角ゴシック", "ＭＳ Ｐゴシック", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 	background-color: #fff;
@@ -133,7 +137,7 @@ img {
 /* indexred */
 /* .mainredchild */
 .mainredchild {
-	height: calc(90vh - 65px);
+	height: calc(100vh - 65px);
 	color: #fff;
 	overflow-y: scroll;
 }
@@ -211,7 +215,7 @@ img {
 	right: -70px;
 }
 #top img {
-	margin-top: calc(50vh - 42px - 40px - 33px);
+	margin-top: calc(45vh - 42px - 40px - 33px);
 }
 
 /* #portfolio */
