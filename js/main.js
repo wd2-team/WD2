@@ -1,7 +1,7 @@
 $(function(){
 	var mySwiper = new Swiper('.swiper-container', {
 		effect: 'slide',
-	    speed: 400,
+	    speed: 600,
 	    navigation: {
     		nextEl: '.swiper-button-next',
     		prevEl: '.swiper-button-prev',
@@ -10,6 +10,10 @@ $(function(){
 		noSwiping: true,
 		noSwipingClass: 'no_swipe',
 	});
+
+	$( document ).on( 'click', '.swiper-mypagination', function() {
+		mySwiper.slideTo( ( $( this ).attr( 'data-white' ) - 1 ) );
+	} );
 });
 
 
