@@ -326,6 +326,168 @@ img {
 	width: 72px;
 }
 
+/* header */
+#wrapperwhite header a {
+	display: block;
+	width: 72px;
+	margin: 0 auto;
+}
+
+/* #about */
+#wrapperwhite #about h1 {
+	font-size: 30px;
+	line-height: 37px;
+	margin: 20px 0 54px 0;
+}
+#wrapperwhite #about #aboutwho {
+	margin-bottom: 100px;
+}
+#wrapperwhite #about #aboutwho h2 {
+	font-size: 20px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+#wrapperwhite #about #aboutwho p {
+	font-size: 16px;
+	line-height: 16px;
+	margin: 9px 0;
+}
+#wrapperwhite #about #aboutwho p span {
+	font-size: 11px;
+}
+#wrapperwhite #about #team {
+	margin-bottom: 114px;
+}
+#wrapperwhite #about #team h2 {
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 57px;
+}
+#wrapperwhite #about #team .teammember {
+	margin-bottom: 50px;
+}
+#wrapperwhite #about #team .teammember img {
+	width: 170px;
+}
+#wrapperwhite #about #team .teammember p {
+	font-size: 17px;
+}
+#wrapperwhite #about #team .teammember p span {
+	font-size: 14px;
+}
+#wrapperwhite #about #info {
+	margin-bottom: 100px;
+}
+#wrapperwhite #about #info h2 {
+	font-size: 18px;
+	line-height: 31px;
+	margin-bottom: 45px;
+}
+#wrapperwhite #about #info dl {
+	text-align: left;
+	width: 280px;
+	margin: 0 auto;
+}
+#wrapperwhite #about #info dl dt {
+	font-size: 17px;
+	border-bottom: 6px solid #000;
+	display: inline-block;
+	margin: 15px 0;
+}
+#wrapperwhite #about #info dl dd {
+	font-size: 15px;
+	line-height: 13px;
+	margin-bottom: 20px;
+}
+#wrapperwhite #about #info dl dd span {
+	font-size: 10px;
+}
+
+/* #service */
+#wrapperwhite #service h1 {
+	font-size: 30px;
+	line-height: 37px;
+	margin: 20px 0 54px 0;
+}
+#wrapperwhite #service #servicewho {
+	margin-bottom: 100px;
+}
+#wrapperwhite #service #servicewho h2 {
+	font-size: 20px;
+	line-height: 36px;
+	margin-bottom: 35px;
+}
+#wrapperwhite #service #servicewho p {
+	font-size: 16px;
+	line-height: 16px;
+	margin: 9px 0;
+}
+#wrapperwhite #service #servicewho p span {
+	font-size: 11px;
+}
+#wrapperwhite #service #product {
+	margin-bottom: 114px;
+}
+#wrapperwhite #service #product h2 {
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 57px;
+}
+#wrapperwhite #service #product img {
+	width: 90px;
+}
+#wrapperwhite #service #product p {
+	font-size: 11px;
+	margin-bottom: 63px;
+}
+
+/* #article */
+#wrapperwhite #article h1 {
+	font-size: 30px;
+	line-height: 37px;
+	margin: 20px 0 54px 0;
+}
+#wrapperwhite #article #tagall ul {
+	text-align: left;
+	margin: 0 20px 45px 20px;
+}
+#wrapperwhite #article #tagall ul li {
+	display: inline-block;
+	font-size: 13px;
+	margin: 0 4px;
+}
+#wrapperwhite #article #articleall ul>li {
+	margin-bottom: 85px;
+}
+#wrapperwhite #article #articleall ul li a img {
+	width: 184px;
+	margin-bottom: 25px;
+}
+
+#wrapperwhite #article #articleall ul li a p {
+	font-size: 13px;
+}
+#wrapperwhite #article #articleall ul li ul li {
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+/* #contact */
+#wrapperwhite #contact h1 {
+	font-size: 30px;
+	line-height: 37px;
+	margin: 20px 0 54px 0;
+}
+#wrapperwhite #contact h2 {
+	font-size: 20px;
+	line-height: 16px;
+	margin-bottom: 35px;
+}
+#wrapperwhite #contact h2 span {
+	font-size: 11px;
+}
+
 /* .mainwhitechild */
 #wrapperwhite .mainwhitechild {
 	height: calc(100vh - 65px - 72px);
@@ -337,6 +499,7 @@ img {
 #wrapperwhite .mainwhitechild .swiper-button-next {
 	background-image: none;
 }
+
 /* footer */
 #wrapperwhite footer {
 	background-color: #af0017;
