@@ -1,64 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="content-language" content="ja">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>WD2</title>
-    <link rel="stylesheet" href="https://use.typekit.net/yit2jnx.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/swiper.css">
-    <script src="js/swiper.js"></script>
-    <script src="js/viewport-units-buggyfill.js"></script>
-    <script>window.viewportUnitsBuggyfill.init();</script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/mobile.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/tablet.css" type="text/css">
-    <link rel="stylesheet" href="css/mobile.css" data-viewport-units-buggyfill="ignore">
-    <link rel="shortcut icon" href="">
-</head>
-<body>
+<?php get_header(); ?>
+
 <div id="port1" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
-    <p><img src="img/kabukiya.png"></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port2" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク2の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port3" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク3の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port4" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク4の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port5" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク5の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port6" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク6の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port7" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク7の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
 <div id="port8" class="modal-content">
-    <p><a class="modal-close"><img src="img/logo2.png"></a></p>
+    <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p>リンク8の内容です。</p>
     <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
 </div>
@@ -67,7 +46,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div id="partners" class="mainredchild swiper-slide no_swipe">
-                    <div class="swiper-button-next"><img src="img/logo.png"></div>
+                    <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
                     <h1>PARTNERS</h1>
                     <h2>WANTED PARTNERS<br><span>創造的な仲間と繋がりたい</span></h2>
                     <p>WE’RE A DYNAMIC GROUP<br><span>私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span>私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span>私達は先駆的な精神によって団結した</span></p>
@@ -76,11 +55,11 @@
                 <div id="top" class="mainredchild swiper-slide no_swipe">
                     <p>WEB DESIGN AND DEVELOPMENT</p>
                     <div class="swiper-button-prev">PARTNERS</div>
-                    <img src="img/logo.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
                     <div class="swiper-button-next">PORTFOLIO</div>
                 </div><!-- #top -->
                 <div id="portfolio" class="mainredchild swiper-slide no_swipe">
-                    <div class="swiper-button-prev"><img src="img/logo.png"></div>
+                    <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
                     <h1>PORTFOLIO</h1>
                     <ul>
                         <li><a data-target="port1" class="modal-open"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
@@ -96,22 +75,21 @@
             </div><!-- .swiper-wrapper -->
         </div><!-- .swiper-container -->
     </div><!-- #mainred -->
-    <footer>
-        <ul>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SERVICE</a></li>
-            <li><a href="">ARTICLE</a></li>
-            <li><a href="">CONTACT</a></li>
-        </ul>
-        <ul>
-            <li>© WD2 2019. All rights reserved.</li>
-        </ul>
-        <ul>
-            <li><a href=""><i class="fab fa-instagram"></i></a></li>
-            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-        </ul>
-    </footer>
-</div><!-- #wrapperred -->
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+        <footer>
+            <ul>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICE</a></li>
+                <li><a href="">ARTICLE</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            <ul>
+                <li>Â© WD2 2019. All rights reserved.</li>
+            </ul>
+            <ul>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </footer>
+    </div><!-- #wrapperred -->
+
+<?php get_footer(); ?>
