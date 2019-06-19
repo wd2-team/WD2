@@ -77,10 +77,10 @@
     </div><!-- #mainred -->
         <footer>
             <ul>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">SERVICE</a></li>
-                <li><a href="">ARTICLE</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><span class="swiper-mypagination" data-white="1">ABOUT</span></li>
+                <li><span class="swiper-mypagination" data-white="2">SERVICE</span></li>
+                <li><span class="swiper-mypagination" data-white="3">ARTICLE</span></li>
+                <li><span class="swiper-mypagination" data-white="4">CONTACT</span></li>
             </ul>
             <ul>
                 <li>Â© WD2 2019. All rights reserved.</li>
