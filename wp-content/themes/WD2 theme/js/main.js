@@ -1,5 +1,5 @@
 $(function(){
-	var mySwiper = new Swiper('.swiper-container', {
+	var mySwiperred = new Swiper('#swiperred', {
 		effect: 'slide',
 	    speed: 600,
 	    navigation: {
@@ -10,10 +10,24 @@ $(function(){
 		noSwiping: true,
 		noSwipingClass: 'no_swipe',
 	});
+});
 
-	$( document ).on( 'click', '.swiper-mypagination', function() {
-		mySwiper.slideTo( ( $( this ).attr( 'data-white' ) - 1 ) );
-	} );
+$(function(){
+    var mySwiperwhite = new Swiper('#swiperwhite', {
+        effect: 'slide',
+        speed: 600,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        initialSlide: 0,
+        noSwiping: true,
+        noSwipingClass: 'no_swipe',
+    });
+
+    $( document ).on( 'click', '.swiper-mypagination', function() {
+        mySwiperwhite.slideTo( ( $( this ).attr( 'data-white' ) - 1 ) );
+    } );
 });
 
 

@@ -43,7 +43,7 @@
 </div>
 <div id="wrapperred">
     <div id="mainred">
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiperred">
             <div class="swiper-wrapper">
                 <div id="partners" class="mainredchild swiper-slide no_swipe">
                     <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
@@ -77,13 +77,13 @@
     </div><!-- #mainred -->
         <footer>
             <ul>
-                <li><span class="swiper-mypagination" data-white="1">ABOUT</span></li>
-                <li><span class="swiper-mypagination" data-white="2">SERVICE</span></li>
-                <li><span class="swiper-mypagination" data-white="3">ARTICLE</span></li>
-                <li><span class="swiper-mypagination" data-white="4">CONTACT</span></li>
+                <li><a href="white-page/#about">ABOUT</a></li>
+                <li><a href="white-page/#service">SERVICE</a></li>
+                <li><a href="white-page/#article">ARTICLE</a></li>
+                <li><a href="white-page/#contact">CONTACT</a></li>
             </ul>
             <ul>
-                <li>Â© WD2 2019. All rights reserved.</li>
+                <li>© WD2 2019. All rights reserved.</li>
             </ul>
             <ul>
                 <li><a href=""><i class="fab fa-instagram"></i></a></li>

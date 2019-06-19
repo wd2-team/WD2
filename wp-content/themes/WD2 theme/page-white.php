@@ -11,7 +11,7 @@ Template Name: white page
         <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
     </header>
     <div id="mainwhite">
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
                 <div id="about" class="mainwhitechild swiper-slide no_swipe">
                     <h1>ABOUT</h1>
