@@ -1,30 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="content-language" content="ja">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>WD2</title>
-    <link rel="stylesheet" href="https://use.typekit.net/yit2jnx.css">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<?php
+/*
+Template Name: white page
+*/
+?>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/swiper.css">
-    <script src="js/swiper.js"></script>
-    <script src="js/viewport-units-buggyfill.js"></script>
-    <script>window.viewportUnitsBuggyfill.init();</script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/mobile.css" type="text/css"> -->
-    <link rel="stylesheet" href="css/tablet.css" type="text/css">
-    <link rel="stylesheet" href="css/mobile.css" data-viewport-units-buggyfill="ignore">
-    <link rel="shortcut icon" href="">
-</head>
-<body>
+<?php get_header(); ?>
+
 <div id="wrapperwhite">
     <header>
-        <a href=""><img src="img/logo2.png"></a>
+        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
     </header>
     <div id="mainwhite">
         <div class="swiper-container">
@@ -41,15 +25,15 @@
                     <div id="team">
                         <h2>TEAM</h2>
                         <div id="team01" class="teammember">
-                            <img src="img/taka.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/taka.png">
                             <p>TAKA<br><span>FOUNDER / CREATIVE DIRECTOR</span></p>
                         </div><!-- #team01 -->
                         <div id="team02" class="teammember">
-                            <img src="img/ssm.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ssm.png">
                             <p>SSM<br><span>TECHNICAL DIRECTOR</span></p>
                         </div><!-- #team02 -->
                         <div id="team03" class="teammember">
-                            <img src="img/jewelry.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/jewelry.png">
                             <p>JEWELRY<br><span>DEVELOPMENT DIRECTOR</span></p>
                         </div><!-- #team03 -->
                     </div><!-- #team -->
@@ -89,9 +73,9 @@
                     </div><!-- #servicewho -->
                     <div id="product">
                         <h2>PRODUCT SERVICE</h2>
-                        <img src="img/prism.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
                         <p>www.storesupplysystem.com</p>
-                        <img src="img/prism.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
                         <p>www.prism.com</p>
                     </div><!-- #product -->
                 </div><!-- #service -->
@@ -121,7 +105,7 @@
                         <ul>
                             <li>
                                 <a>
-                                    <img src="img/article01.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article01.png">
                                     <p>クリエイティビティの解放</p>
                                 </a>
                                 <ul>
@@ -133,7 +117,7 @@
                             </li>
                             <li>
                                 <a>
-                                    <img src="img/article02.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article02.png">
                                     <p>クリエイティビティの解放</p>
                                 </a>
                                 <ul>
@@ -145,7 +129,7 @@
                             </li>
                             <li>
                                 <a>
-                                    <img src="img/article03.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article03.png">
                                     <p>クリエイティビティの解放</p>
                                 </a>
                                 <ul>
@@ -157,7 +141,7 @@
                             </li>
                             <li>
                                 <a>
-                                    <img src="img/article04.png">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article04.png">
                                     <p>クリエイティビティの解放</p>
                                 </a>
                                 <ul>
@@ -216,7 +200,7 @@
                                         <option value="" selected="selected">選択してください</option>
                                         <option value="ウェブサイト制作１">ウェブサイト制作１</option>
                                         <option value="ウェブサイト制作２">ウェブサイト制作２</option>
-                                    </select> 
+                                    </select>
                                 </td>
                             </tr>
                             <tr>
@@ -235,10 +219,8 @@
                     <div id="contactpartners">
                         <h1>PARTNERS</h1>
                         <h2>WANTED PARTNERS<br><span>創造的な仲間と繋がりたい</span></h2>
-                        <p>WE’RE A DYNAMIC GROUP<br><span>私達は先駆的な精神によって団結した</span></p>
-                        <p>OF CREATIVE TECHNOLOGISTS<br><span>私達は先駆的な精神に団結した創造的な</span></p>
-                        <p>UNITED BY OUR PIONEERING SPIRIT<br><span>私達は先駆的な精神によって団結した</span></p>
-                        <p><a href="">JOIN US</a></p>
+                        <p>WE’RE A DYNAMIC GROUP<br><span>私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span>私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span>私達は先駆的な精神によって団結した</span></p>
+                        <a href="">JOIN US</a>
                     </div><!-- #contactpartners -->
                 </div><!-- #contact -->
             </div><!-- .swiper-wrapper -->
@@ -258,8 +240,5 @@
             <li><a href=""><i class="fab fa-instagram"></i></a></li>
             <li><a href=""><i class="fab fa-twitter"></i></a></li>
         </ul>
-    </footer>
-</div><!-- #wrapperwhite -->
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+
+<?php get_footer(); ?>
