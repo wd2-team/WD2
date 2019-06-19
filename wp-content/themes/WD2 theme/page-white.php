@@ -8,7 +8,7 @@ Template Name: white page
 
 <div id="wrapperwhite">
     <header>
-        <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
     </header>
     <div id="mainwhite">
         <div class="swiper-container" id="swiperwhite">
