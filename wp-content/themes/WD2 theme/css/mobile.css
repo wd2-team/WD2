@@ -143,8 +143,10 @@ img {
 
 /* indexred */
 /* .mainredchild */
-#wrapperred .mainredchild {
+#wrapperred #mainred .swiper-container {
 	height: calc(100vh - 65px);
+}
+#wrapperred .mainredchild {
 	color: #fff;
 	overflow-y: scroll;
 }
@@ -324,6 +326,13 @@ img {
 /* indexwhite */
 #wrapperwhite img {
 	width: 72px;
+}
+/* .mainwhitechild */
+#wrapperwhite #mainwhite .swiper-container {
+	height: calc(100vh - 65px - 72px);
+}
+#wrapperwhite .mainwhitechild {
+	overflow-y: scroll;
 }
 
 /* header */
