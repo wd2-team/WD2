@@ -13,7 +13,7 @@ Template Name: white page
     <div id="mainwhite">
         <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
-                <div id="about" class="mainwhitechild swiper-slide no_swipe">
+                <div id="about" class="mainwhitechild swiper-slide no_swipe" data-hash="slide1">
                     <h1>ABOUT</h1>
                     <div id="aboutwho">
                         <h2>WHO WE ARE</h2>
@@ -62,7 +62,7 @@ Template Name: white page
                         </dl>
                     </div><!-- #info -->
                 </div><!-- #about -->
-                <div id="service" class="mainwhitechild swiper-slide no_swipe">
+                <div id="service" class="mainwhitechild swiper-slide no_swipe" data-hash="slide2">
                     <h1>SERVICE</h1>
                     <div id="servicewho">
                         <h2>WHO WE ARE</h2>
@@ -79,7 +79,7 @@ Template Name: white page
                         <p>www.prism.com</p>
                     </div><!-- #product -->
                 </div><!-- #service -->
-                <div id="article" class="mainwhitechild swiper-slide no_swipe">
+                <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
                     <h1>ARTICLE</h1>
                     <div id="tagall">
                         <ul>
@@ -154,7 +154,7 @@ Template Name: white page
                         </ul>
                     </div><!-- #articleall -->
                 </div><!-- #article -->
-                <div id="contact" class="mainwhitechild swiper-slide no_swipe">
+                <div id="contact" class="mainwhitechild swiper-slide no_swipe" data-hash="slide4">
                     <h1>CONTACT</h1>
                     <h2>CREATIVE TECHNOLOGISTS<br><span>私達の役割は創造力を解放する手助けをすることです</span></h2>
                     <form>
@@ -228,10 +228,10 @@ Template Name: white page
     </div><!-- #mainwhite -->
     <footer>
         <ul>
-            <li><span class="swiper-mypagination" data-white="1">ABOUT</span></li>
-            <li><span class="swiper-mypagination" data-white="2">SERVICE</span></li>
-            <li><span class="swiper-mypagination" data-white="3">ARTICLE</span></li>
-            <li><span class="swiper-mypagination" data-white="4">CONTACT</span></li>
+            <li><a href="#slide1">ABOUT</a></li>
+            <li><a href="#slide2">SERVICE</a></li>
+            <li><a href="#slide3">ARTICLE</a></li>
+            <li><a href="#slide4">CONTACT</a></li>
         </ul>
         <ul>
             <li>© WD2 2019. All rights reserved.</li>

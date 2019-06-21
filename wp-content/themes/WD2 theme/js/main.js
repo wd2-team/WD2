@@ -23,6 +23,10 @@ $(function(){
         initialSlide: 0,
         noSwiping: true,
         noSwipingClass: 'no_swipe',
+        hashNavigation: {
+            watchState: true,
+            replaceState: true,
+        },
     });
 
     $( document ).on( 'click', '.swiper-mypagination', function() {

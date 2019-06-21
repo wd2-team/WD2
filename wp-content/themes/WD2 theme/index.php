@@ -77,10 +77,10 @@
     </div><!-- #mainred -->
         <footer>
             <ul>
-                <li><a href="white-page/#about">ABOUT</a></li>
-                <li><a href="white-page/#service">SERVICE</a></li>
-                <li><a href="white-page/#article">ARTICLE</a></li>
-                <li><a href="white-page/#contact">CONTACT</a></li>
+                <li><a href="white-page/#slide1">ABOUT</a></li>
+                <li><a href="white-page/#slide2">SERVICE</a></li>
+                <li><a href="white-page/#slide3">ARTICLE</a></li>
+                <li><a href="white-page/#slide4">CONTACT</a></li>
             </ul>
             <ul>
                 <li>© WD2 2019. All rights reserved.</li>
