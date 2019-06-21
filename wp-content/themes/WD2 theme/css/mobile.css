@@ -233,7 +233,8 @@ img {
 	right: -70px;
 }
 #wrapperred #top img {
-	margin-top: calc(50vh - 21px - 32px - 42px - 12px);
+	/* margin-top: calc(50vh - 21px - 32px - 42px - 12px); */
+	margin-top: calc(35vh - 45px);
 }
 
 /* #portfolio */
@@ -302,7 +303,7 @@ img {
 	line-height: 16px;
 }
 #wrapperred footer ul {
-	margin: 13px 21px;
+	margin: 13px 21px 6px 21px;
 }
 #wrapperred footer ul:nth-child(1) li {
 	display: inline-block;
@@ -598,7 +599,7 @@ img {
 	line-height: 16px;
 }
 #wrapperwhite footer ul {
-	margin: 13px 21px;
+	margin: 13px 21px 6px 21px;
 }
 #wrapperwhite footer ul:nth-child(1) {
 	margin-top: 0;
