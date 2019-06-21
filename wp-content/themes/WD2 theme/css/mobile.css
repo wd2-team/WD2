@@ -623,3 +623,20 @@ img {
 #wrapperwhite footer ul li a {
 	color: #fff;
 }
+
+#wrapperred,
+#wrapperwhite {
+	height: 100%;
+}
+#wrapperred #mainred .swiper-container {
+    height: calc(100% - 65px);
+}
+#wrapperwhite #mainwhite .swiper-container {
+	height: calc(100% - 65px - 72px);
+}
+#wrapperred .mainredchild {
+	height: calc(100% - 65px);
+}
+#wraooerwhite .mainwhitechild {
+	height: calc(100% - 65px - 72px);
+}

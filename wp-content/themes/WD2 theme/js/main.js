@@ -28,10 +28,6 @@ $(function(){
             replaceState: true,
         },
     });
-
-    $( document ).on( 'click', '.swiper-mypagination', function() {
-        mySwiperwhite.slideTo( ( $( this ).attr( 'data-white' ) - 1 ) );
-    } );
 });
 
 
