@@ -255,27 +255,44 @@ img {
 	font-size: 30px;
 	margin-top: 24px;
 }
-#wrapperred #portfolio ul {
+#wrapperred #portfolio #portlist {
 	margin-top: 25px;
 	margin-bottom: 38.5px;
-	font-size: 0;
 }
-#wrapperred #portfolio ul li {
-	width: 140px;
-	height: 140px;
-	display: inline-block;
-	background-color: #fff;
-	margin: 0 6.5px;
-	font-size: 17px;
+#wrapperred #portfolio #portlist .adjust {
+    position: relative;
+    width: 44%;
+    margin: 1.5%;
+    height: auto;
+    background-color: #fff;
+    display: inline-block;
 }
-#wrapperred #portfolio ul li a {
+#wrapperred #portfolio #portlist .adjust:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+#wrapperred #portfolio #portlist .inner {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#wrapperred #portfolio #portlist .center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+#wrapperred #portfolio #portlist a {
 	color: #af0017;
 	display: block;
 	width: 100%;
 	height: 100%;
 	position: relative;
 }
-#wrapperred #portfolio ul li a p {
+#wrapperred #portfolio #portlist a p {
     position: absolute;
 	top: 50%;
 	left: 50%;
@@ -284,10 +301,10 @@ img {
 	line-height: 14px;
 	width: 140px;
 }
-#wrapperred #portfolio ul li a span.porttitle {
+#wrapperred #portfolio #portlist a span.porttitle {
 	font-size: 16px;
 }
-#wrapperred #portfolio ul li a span.porturl {
+#wrapperred #portfolio #portlist a span.porturl {
 	display: block;
 	font-size: 10px;
 	transform: scale(0.8);
@@ -484,7 +501,7 @@ img {
 	margin: 92px 0 54px 0;
 }
 #wrapperwhite #article #tagall ul {
-	text-align: left;
+	text-align: center;
 	margin: 0 20px 45px 20px;
 }
 #wrapperwhite #article #tagall ul li {
@@ -653,3 +670,4 @@ img {
 #wrapperwhite .mainwhitechild {
 	height: 100%;
 } */
+

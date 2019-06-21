@@ -61,16 +61,48 @@
                 <div id="portfolio" class="mainredchild swiper-slide no_swipe">
                     <div class="swiper-button-prev"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
                     <h1>PORTFOLIO</h1>
-                    <ul>
-                        <li><a data-target="port1" class="modal-open"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port2" class="modal-open"><p><span class="porttitle">TACHIBANA<br>EXPRESS</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port3" class="modal-open"><p><span class="porttitle">TOMMY’S</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port4" class="modal-open"><p><span class="porttitle">WILDERNESS<br>GARDEN</span><br><span class="porturl">www.wilderness-garden.com</span></p></a></li>
-                        <li><a data-target="port5" class="modal-open"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port6" class="modal-open"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port7" class="modal-open"><p><span class="porttitle">TOMMY’S</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                        <li><a data-target="port8" class="modal-open"><p><span class="porttitle">WD2</span><br><span class="porturl">www.kabukiya.com</span></p></a></li>
-                    </ul>
+                    <div id="portlist">
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port1" class="modal-open center"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port2" class="modal-open"><p><span class="porttitle">TACHIBANA<br>EXPRESS</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port3" class="modal-open"><p><span class="porttitle">TOMMY’S</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port4" class="modal-open"><p><span class="porttitle">WILDERNESS<br>GARDEN</span><br><span class="porturl">www.wilderness-garden.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port1" class="modal-open center"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port2" class="modal-open"><p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port3" class="modal-open"><p><span class="porttitle">TOMMY’S</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                        <div class="adjust">
+                            <div class="inner">
+                                <a data-target="port4" class="modal-open"><p><span class="porttitle">WD2</span><br><span class="porturl">www.kabukiya.com</span></p></a>
+                            </div>
+                        </div>
+                    </div>
                 </div><!-- #portfolio -->
             </div><!-- .swiper-wrapper -->
         </div><!-- .swiper-container -->
