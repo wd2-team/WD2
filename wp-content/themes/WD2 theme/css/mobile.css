@@ -345,7 +345,7 @@ img {
 
 /* .mainwhitechild */
 #wrapperwhite #mainwhite .swiper-container {
-	height: calc(100% - 65px - 72px);
+	height: calc(100% - 65px);
 }
 #wrapperwhite .mainwhitechild {
 	height: 100%;
@@ -359,6 +359,10 @@ img {
 }
 
 /* header */
+#wrapperwhite header {
+	position: fixed;
+	width: 100%;
+}
 #wrapperwhite header a {
 	display: block;
 	width: 72px;
@@ -369,7 +373,7 @@ img {
 #wrapperwhite #about h1 {
 	font-size: 30px;
 	line-height: 37px;
-	margin: 20px 0 54px 0;
+	margin: 92px 0 54px 0;
 }
 #wrapperwhite #about #aboutwho {
 	margin-bottom: 100px;
@@ -439,7 +443,7 @@ img {
 #wrapperwhite #service h1 {
 	font-size: 30px;
 	line-height: 37px;
-	margin: 20px 0 54px 0;
+	margin: 92px 0 54px 0;
 }
 #wrapperwhite #service #servicewho {
 	margin-bottom: 100px;
@@ -477,7 +481,7 @@ img {
 #wrapperwhite #article h1 {
 	font-size: 30px;
 	line-height: 37px;
-	margin: 20px 0 54px 0;
+	margin: 92px 0 54px 0;
 }
 #wrapperwhite #article #tagall ul {
 	text-align: left;
@@ -509,7 +513,7 @@ img {
 #wrapperwhite #contact h1 {
 	font-size: 30px;
 	line-height: 37px;
-	margin: 20px 0;
+	margin: 92px 0 20px 0;
 }
 #wrapperwhite #contact #contactpartners {
 	width: 290px;
@@ -633,7 +637,7 @@ img {
 	color: #fff;
 }
 
-#wrapperred,
+/* #wrapperred,
 #wrapperwhite {
 	height: 100%;
 }
@@ -648,4 +652,4 @@ img {
 }
 #wrapperwhite .mainwhitechild {
 	height: 100%;
-}
+} */
