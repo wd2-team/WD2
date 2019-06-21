@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* layout */
 * {
 	box-sizing: border-box;
@@ -141,14 +143,21 @@ img {
 	transition-timing-function: ease-in;
 }
 
+
+
 /* indexred */
+#wrapperred {
+	height: 100%;
+}
+
 /* .mainredchild */
 #wrapperred #mainred .swiper-container {
-	height: calc(100vh - 65px);
+	height: calc(100% - 65px);
 }
 #wrapperred .mainredchild {
 	color: #fff;
 	overflow-y: scroll;
+	height: 100%;
 }
 #wrapperred .mainredchild .swiper-button-prev,
 #wrapperred .mainredchild .swiper-container-rtl,
@@ -224,7 +233,7 @@ img {
 	right: -70px;
 }
 #wrapperred #top img {
-	margin-top: calc(45vh - 42px - 40px - 33px);
+	margin-top: calc(50vh - 21px - 32px - 42px - 12px);
 }
 
 /* #portfolio */
@@ -323,16 +332,29 @@ img {
 	color: #af0017;
 }
 
+
+
 /* indexwhite */
+#wrapperwhite {
+	height: 100%;
+}
 #wrapperwhite img {
 	width: 72px;
 }
+
 /* .mainwhitechild */
 #wrapperwhite #mainwhite .swiper-container {
-	height: calc(100vh - 65px - 72px);
+	height: calc(100% - 65px - 72px);
 }
 #wrapperwhite .mainwhitechild {
+	height: 100%;
+	color: #000;
 	overflow-y: scroll;
+}
+#wrapperwhite .mainwhitechild .swiper-button-prev,
+#wrapperwhite .mainwhitechild .swiper-container-rtl,
+#wrapperwhite .mainwhitechild .swiper-button-next {
+	background-image: none;
 }
 
 /* header */
@@ -523,8 +545,6 @@ img {
 	border-bottom: 6px solid #fff;
 	padding: 6px 8px;
 }
-
-
 #wrapperwhite #contact h2 {
 	font-size: 20px;
 	line-height: 16px;
@@ -569,23 +589,11 @@ img {
 	padding: 6px 8px;
 }
 
-/* .mainwhitechild */
-#wrapperwhite .mainwhitechild {
-	height: calc(100vh - 65px - 72px);
-	color: #000;
-	overflow-y: scroll;
-}
-#wrapperwhite .mainwhitechild .swiper-button-prev,
-#wrapperwhite .mainwhitechild .swiper-container-rtl,
-#wrapperwhite .mainwhitechild .swiper-button-next {
-	background-image: none;
-}
-
 /* footer */
 #wrapperwhite footer {
 	background-color: #af0017;
 	color: #fff;
-	height: 62px;
+	height: 65px;
 	font-size: 14px;
 	line-height: 16px;
 }
@@ -635,8 +643,8 @@ img {
 	height: calc(100% - 65px - 72px);
 }
 #wrapperred .mainredchild {
-	height: calc(100% - 65px);
+	height: 100%;
 }
-#wraooerwhite .mainwhitechild {
-	height: calc(100% - 65px - 72px);
+#wrapperwhite .mainwhitechild {
+	height: 100%;
 }
