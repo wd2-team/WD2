@@ -11,7 +11,7 @@ Template Name: white page
         <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
                 <div id="about" class="mainwhitechild swiper-slide no_swipe" data-hash="slide1">
-                    <header>
+                    <header class="sticky">
                         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
                     </header>
                     <h1>ABOUT</h1>
@@ -63,7 +63,7 @@ Template Name: white page
                     </div><!-- #info -->
                 </div><!-- #about -->
                 <div id="service" class="mainwhitechild swiper-slide no_swipe" data-hash="slide2">
-                    <header>
+                    <header class="sticky">
                         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
                     </header>
                     <h1>SERVICE</h1>
@@ -83,7 +83,7 @@ Template Name: white page
                     </div><!-- #product -->
                 </div><!-- #service -->
                 <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
-                    <header>
+                    <header class="sticky">
                         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
                     </header>
                     <h1>ARTICLE</h1>
@@ -125,7 +125,7 @@ Template Name: white page
                     </div><!-- #articleall -->
                 </div><!-- #article -->
                 <div id="contact" class="mainwhitechild swiper-slide no_swipe" data-hash="slide4">
-                    <header>
+                    <header class="sticky">
                         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
                     </header>
                     <h1>CONTACT</h1>
