@@ -532,41 +532,6 @@ img {
 	line-height: 37px;
 	margin: 92px 0 20px 0;
 }
-#wrapperwhite #contact #contactpartners {
-	width: 290px;
-	height: 430px;
-	background-color: #af0017;
-	color: #fff;
-	margin: 0 auto 30px auto;
-}
-#wrapperwhite #contact #contactpartners h1 {
-	font-size: 30px;
-	line-height: 17px;
-	margin: 20px 0 36px 0;
-	padding-top: 40px;
-}
-#wrapperwhite #contact #contactpartners h2 {
-	font-size: 20px;
-	line-height: 16px;
-	margin-bottom: 35px;
-}
-#wrapperwhite #contact #contactpartners p {
-	font-size: 15px;
-	line-height: 15px;
-	margin: 9px 0;
-}
-#wrapperwhite #contact #contactpartners p:last-child {
-	margin: 42px 0;
-}
-#wrapperwhite #contact #contactpartners p span {
-	font-size: 10px;
-}
-#wrapperwhite #contact #contactpartners p a {
-	font-size: 20px;
-	color: #fff;
-	border-bottom: 6px solid #fff;
-	padding: 6px 8px;
-}
 #wrapperwhite #contact h2 {
 	font-size: 20px;
 	line-height: 16px;
@@ -585,7 +550,7 @@ img {
 #wrapperwhite #contact #contactpartners h1 {
 	font-size: 30px;
 	line-height: 17px;
-	margin: 20px 0 36px 0;
+	margin: 20px 0 56px 0;
 	padding-top: 40px;
 }
 #wrapperwhite #contact #contactpartners h2 {

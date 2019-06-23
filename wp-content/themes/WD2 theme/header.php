@@ -12,11 +12,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/swiper.css">
     <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/viewport-units-buggyfill.js"></script>
-    <script>window.viewportUnitsBuggyfill.init();</script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/tablet.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mobile.css" data-viewport-units-buggyfill="ignore">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mobile.css" type="text/css">
     <link rel="shortcut icon" href="">
 </head>
 <body>
