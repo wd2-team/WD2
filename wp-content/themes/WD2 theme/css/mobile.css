@@ -509,21 +509,42 @@ img {
 	font-size: 13px;
 	margin: 0 4px;
 }
+#wrapperwhite #article #tagall ul li a {
+	color: #000;
+}
+#wrapperwhite #article #tagall ul li a:before {
+	content: "#";
+}
 #wrapperwhite #article #articleall ul>li {
 	margin-bottom: 85px;
+}
+#wrapperwhite #article #articleall ul li a {
+	display: block;
+	width: 184px;
+	margin: 0 auto;
+	color: #000;
+	font-size: 13px;
 }
 #wrapperwhite #article #articleall ul li a img {
 	width: 184px;
 	margin-bottom: 25px;
 }
-
-#wrapperwhite #article #articleall ul li a p {
-	font-size: 13px;
+#wrapperwhite #article #articleall ul li ul {
+	width: 90%;
+	margin: 0 auto;
 }
 #wrapperwhite #article #articleall ul li ul li {
 	font-size: 12px;
 	display: inline-block;
 	margin-bottom: 0;
+}
+#wrapperwhite #article #articleall ul li ul li a {
+	display: inline-block;
+	width: auto;
+	margin: 0 3px;
+}
+#wrapperwhite #article #articleall ul li ul li a:before {
+	content: "#";
 }
 
 /* #contact */

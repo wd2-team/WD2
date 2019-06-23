@@ -88,75 +88,39 @@ Template Name: white page
                     </header>
                     <h1>ARTICLE</h1>
                     <div id="tagall">
-                        <ul>
-                            <li><span>#art</span></li>
-                            <li><span>#dragon</span></li>
-                            <li><span>#development</span></li>
-                            <li><span>#illustlarion</span></li>
-                            <li><span>#agent</span></li>
-                            <li><span>#development</span></li>
-                            <li><span>#design</span></li>
-                            <li><span>#design</span></li>
-                            <li><span>#art</span></li>
-                            <li><span>#dragon</span></li>
-                            <li><span>#development</span></li>
-                            <li><span>#illustlarion</span></li>
-                            <li><span>#agent</span></li>
-                            <li><span>#development</span></li>
-                            <li><span>#design</span></li>
-                            <li><span>#design</span></li>
-                        </ul>
+                        <?php
+                        // パラメータを指定
+                        $args = array(
+                            // タグ名順で指定
+                            'orderby' => 'name',
+                            // 昇順で指定
+                            'order' => 'ASC'
+                        );
+                        $posttags = get_tags( $args );
+
+                        if ( $posttags ){
+                            echo ' <ul class="tag-list"> ';
+                            foreach( $posttags as $tag ) {
+                                echo '<li><span><a href="'. get_tag_link( $tag->term_id ) . '">' . $tag->name . '</a></span></li>';
+                            }
+                            echo ' </ul> ';
+                        }
+                        ?>
                     </div><!-- #tagall -->
                     <div id="articleall">
                         <ul>
-                            <li>
-                                <a>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article01.png">
-                                    <p>クリエイティビティの解放</p>
-                                </a>
+                            <?php $posts = get_posts('numberposts=4'); ?>
+                            <?php foreach($posts as $post): ?>
+                            <li class="post_list">
+                                <a href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail(array(50,50), array('class' => 'left')); ?></a>
+                                <a href="<?php the_permalink(); ?>">
+                                <?php the_title(); ?></a>
                                 <ul>
-                                    <li><span>#art</span></li>
-                                    <li><span>#dragon</span></li>
-                                    <li><span>#development</span></li>
-                                    <li><span>#illustlarion</span></li>
+                                    <li><span><?php the_tags('',''); ?></span></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article02.png">
-                                    <p>クリエイティビティの解放</p>
-                                </a>
-                                <ul>
-                                    <li><span>#art</span></li>
-                                    <li><span>#dragon</span></li>
-                                    <li><span>#development</span></li>
-                                    <li><span>#illustlarion</span></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article03.png">
-                                    <p>クリエイティビティの解放</p>
-                                </a>
-                                <ul>
-                                    <li><span>#art</span></li>
-                                    <li><span>#dragon</span></li>
-                                    <li><span>#development</span></li>
-                                    <li><span>#illustlarion</span></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/article04.png">
-                                    <p>クリエイティビティの解放</p>
-                                </a>
-                                <ul>
-                                    <li><span>#art</span></li>
-                                    <li><span>#dragon</span></li>
-                                    <li><span>#development</span></li>
-                                    <li><span>#illustlarion</span></li>
-                                </ul>
-                            </li>
+                            <?php endforeach; ?>
                         </ul>
                     </div><!-- #articleall -->
                 </div><!-- #article -->
