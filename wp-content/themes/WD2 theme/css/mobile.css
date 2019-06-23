@@ -540,6 +540,38 @@ img {
 #wrapperwhite #contact h2 span {
 	font-size: 11px;
 }
+#wrapperwhite #contact form {
+	text-align: left;
+	margin: 50px 8%;
+}
+#wrapperwhite #contact form p label {
+	font-size: 17px;
+}
+#wrapperwhite #contact form p label span {
+	font-size: 12px;
+}
+#wrapperwhite #contact form input {
+	border: none;
+	border-bottom: 5px solid #000;
+	margin: 20px 0;
+	width: 100%;
+}
+#wrapperwhite #contact form textarea {
+	border: none;
+	border-bottom: 5px solid #000;
+	margin: 20px 0;
+	width: 100%;
+}
+#wrapperwhite #contact form p:nth-child(7) {
+	text-align: center;
+}
+#wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border: 5px solid #000;
+    font-weight: bold;
+}
 #wrapperwhite #contact #contactpartners {
 	width: 290px;
 	height: 430px;

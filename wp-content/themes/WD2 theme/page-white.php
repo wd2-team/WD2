@@ -166,66 +166,7 @@ Template Name: white page
                     </header>
                     <h1>CONTACT</h1>
                     <h2>CREATIVE TECHNOLOGISTS<br><span>私達の役割は創造力を解放する手助けをすることです</span></h2>
-                    [contact-form-7 id="5" title="Contactform1"]
-                    <form>
-                        <table>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_name">NAME<br><span>お名前</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <input type="text" id="form_name">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_company">COMPANY<br><span>会社名・団体名</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <input type="text" id="form_company">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_email">EMAIL<br><span>メールアドレス</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <input type="text" id="form_email">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_emailagain">EMAIL<br><span>メールアドレス再入力</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <input type="text" id="form_emailagain">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_select">SELECT<br><span>お問い合わせ項目</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <select name="お問い合わせ項目">
-                                        <option value="" selected="selected">選択してください</option>
-                                        <option value="ウェブサイト制作１">ウェブサイト制作１</option>
-                                        <option value="ウェブサイト制作２">ウェブサイト制作２</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_title">
-                                    <label for="form_textarea">DESCRIPTION<br><span>お問い合わせ内容</span></label>
-                                </td>
-                                <td class="form_contents">
-                                    <textarea id="form_textarea"></textarea>
-                                </td>
-                            </tr>
-                        </table>
-                        <p id="submit">
-                            <input type="submit" value="送信する">
-                        </p>
-                    </form>
+                    <?php echo do_shortcode( '[contact-form-7 id="5" title="Contactform1"]' ); ?>
                     <div id="contactpartners">
                         <h1>PARTNERS</h1>
                         <h2>WANTED PARTNERS<br><span>創造的な仲間と繋がりたい</span></h2>
