@@ -594,12 +594,14 @@ img {
 	border-bottom: 5px solid #000;
 	margin: 20px 0;
 	width: 100%;
+	border-radius: 0;
 }
 #wrapperwhite #contact form textarea {
 	border: none;
 	border-bottom: 5px solid #000;
 	margin: 20px 0;
 	width: 100%;
+	border-radius: 0;
 }
 #wrapperwhite #contact form p:nth-child(7) {
 	text-align: center;
@@ -610,6 +612,7 @@ img {
     background-color: #fff;
     border: 5px solid #000;
     font-weight: bold;
+    -webkit-appearance: none;
 }
 #wrapperwhite #contact #contactpartners {
 	width: 290px;
