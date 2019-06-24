@@ -113,8 +113,21 @@ img {
     padding: 0;
     color: #af0017;
 }
+.modal-content p:nth-child(2) {
+	margin-top: calc(13vh - 70px);
+	margin-bottom: calc(13vh - 70px);
+}
 .modal-content p:nth-child(2) img {
     width: 100%;
+}
+.modal-content p a {
+	color: #af0017;
+}
+.modal-content p a span.porttitle {
+	font-size: 20px;
+}
+.modal-content p a span.porturl {
+	font-size: 10px;
 }
 .modal-overlay {
     z-index: 1;
@@ -133,12 +146,17 @@ img {
 .modal-close {
     color: #00f;
     text-decoration: underline;
+    display: inline-block;
+}
+.modal-close img {
+	width: 72px;
 }
 .modal-close:hover {
     cursor: pointer;
     color: #f00;
 }
 
+/* swiper */
 .swiperwrapper {
 	transition-timing-function: ease-in;
 }

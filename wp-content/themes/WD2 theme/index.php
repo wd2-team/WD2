@@ -4,42 +4,42 @@
 <div id="port1" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port2" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク2の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port3" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク3の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port4" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク4の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port5" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク5の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port6" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク6の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port7" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク7の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="port8" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
-    <p>リンク8の内容です。</p>
-    <p><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></p>
+    <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
+    <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="wrapperred">
     <div id="mainred">
