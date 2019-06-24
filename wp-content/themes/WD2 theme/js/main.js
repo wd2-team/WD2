@@ -20,7 +20,7 @@ $(function(){
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        initialSlide: 0,
+        initialSlide: 3,
         noSwiping: true,
         noSwipingClass: 'no_swipe',
         hashNavigation: {
