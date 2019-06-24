@@ -674,7 +674,7 @@ img {
 
 /* single */
 #wrapperwhite #article #articlecontent h1 {
-	margin: 72px 0 24px 0;
+	margin: 72px 0 70px 0;
 }
 #wrapperwhite #article #articlecontent h1 img {
 	width: 100%;
@@ -697,25 +697,25 @@ img {
 #wrapperwhite #article #articlecontent #thumbinner ul li a:before {
 	content: "#";
 }
-#wrapperwhite #article #articlecontent #articlecontentinner p:first-child {
-	text-align: center;
-}
 #wrapperwhite #article #articlecontent #articlecontentinner p {
 	text-align: left;
-	margin: 70px 7%;
+	margin: 0 7%;
 	font-size: 12px;
 	line-height: 23px;
 }
-#wrapperwhite #article #articlecontent #articlecontentinner img {
-	width: 86%;
-	margin: 0 auto;
+#wrapperwhite #article #articlecontent #articlecontentinner p:last-child {
+	font-size: 10px;
 }
-#wrapperwhite #article #articlecontent #articlecontentinner img:last-child {
+#wrapperwhite #article #articlecontent #articlecontentinner img {
 	width: 100%;
 }
 #wrapperwhite #article #related h2 {
-	margin: 20px 0;
+	margin: 70px 0 20px 0;
 	font-size: 17px; 
+}
+#wrapperwhite #article #related p {
+	font-size: 12px;
+	font-weight: normal;
 }
 #wrapperwhite #article #related ul {
 	text-align: left;
