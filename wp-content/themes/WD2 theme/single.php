@@ -10,7 +10,12 @@
                     </header>
                     <div id="articlecontent">
                         <?php if(have_posts()): while(have_posts()):the_post(); ?>
-                            <h1><?php the_post_thumbnail(array(50,50), array('class' => 'left')); ?></h1>
+                            <h1><?php if(has_post_thumbnail()): ?>
+                                    <?php the_post_thumbnail(array(50,50), array('class' => 'left')); ?>
+                                <?php else: ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" alt="no image">
+                                <?php endif; ?>
+                            </h1>
                             <div id="thumbinner">
                                 <p><?php the_title(); ?></p>
                                 <ul>

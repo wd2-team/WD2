@@ -113,7 +113,12 @@ Template Name: white page
                             <?php foreach($posts as $post): ?>
                             <li class="post_list">
                                 <a href="<?php the_permalink(); ?>">
-                                <?php the_post_thumbnail(array(50,50), array('class' => 'left')); ?></a>
+                                <?php if(has_post_thumbnail()): ?>
+                                    <?php the_post_thumbnail(array(50,50), array('class' => 'left')); ?>
+                                <?php else: ?>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" alt="no image">
+                                <?php endif; ?>
+                                </a>
                                 <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?></a>
                                 <ul>
