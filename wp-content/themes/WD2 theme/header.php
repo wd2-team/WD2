@@ -11,9 +11,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/swiper.css">
     <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/tablet.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/mobile.css" type="text/css">
+    <?php if( is_mobile()) : ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css">
+    <?php elseif( is_tablet()) : ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/tablet.css">
+    <?php else: ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+    <?php endif; ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/sticky-state.css">
     <link rel="shortcut icon" href="">
 </head>
