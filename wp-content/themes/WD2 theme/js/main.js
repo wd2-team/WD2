@@ -29,23 +29,6 @@ $(function(){
         },
     });
 });
-
-// position: stickyがブラウザで使えるかチェックするための関数
-function detectSticky() {
-  const div = document.createElement('div');
-  div.style.position = 'sticky';
-  return div.style.position.indexOf('sticky') !== -1;
-}
-
-// .stickyが指定されている要素に対してposition: stickyを適用させる関数
-function callStickyState() {
-  return new StickyState(document.querySelectorAll('.sticky'));
-}
-
-// もしブラウザでposition: stickyが使えなければ、callStickyState関数を呼び出す
-if (!detectSticky()) {
-  callStickyState();
-}
 $(function(){
     // 「.modal-open」をクリック
     $('.modal-open').click(function(){
@@ -101,20 +84,3 @@ $(function(){
    },
    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
  })(document);
-
-// position: stickyがブラウザで使えるかチェックするための関数
-function detectSticky() {
-  const div = document.createElement('div');
-  div.style.position = 'sticky';
-  return div.style.position.indexOf('sticky') !== -1;
-}
-
-// .stickyが指定されている要素に対してposition: stickyを適用させる関数
-function callStickyState() {
-  return new StickyState(document.querySelectorAll('.sticky'));
-}
-
-// もしブラウザでposition: stickyが使えなければ、callStickyState関数を呼び出す
-if (!detectSticky()) {
-  callStickyState();
-}
