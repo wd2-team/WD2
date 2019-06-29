@@ -55,7 +55,7 @@
                 <div id="top" class="mainredchild swiper-slide no_swipe">
                     <p>WEB DESIGN AND DEVELOPMENT</p>
                     <div class="swiper-button-prev">PARTNERS</div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+                    <img id="toplogo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
                     <div class="swiper-button-next">PORTFOLIO</div>
                 </div><!-- #top -->
                 <div id="portfolio" class="mainredchild swiper-slide no_swipe">
