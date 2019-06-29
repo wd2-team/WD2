@@ -254,9 +254,10 @@ img {
 	font-size: 50px;
 	right: -70px;
 }
-#wrapperred #top img {
-	/* margin-top: calc(50vh - 21px - 32px - 42px - 12px); */
-	margin-top: calc(35vh - 45px);
+#wrapperred #top #toplogo {
+	width: calc((100vw - 320px) / 3.3 + 85px);
+	min-width: 85px;
+	max-width: 116px;
 }
 
 /* #portfolio */

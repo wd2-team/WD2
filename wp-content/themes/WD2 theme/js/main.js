@@ -73,6 +73,20 @@ $(function(){
   });
 
   var heightSize = $(window).height();
-  $('#toplogo').css("margin-top", heightSize / 2 - 21 - 32 - 42 - 12);;
+  var widthSize = $(window).width();
+
+  //  レスポンシブ
+  function toplogoResize(){
+    var w = $(window).width();
+    var h = $(window).height();
+    // var toplogoSize = (w - 320) / 3.3 + 85 ;
+    var toplogoSize = $('#toplogo').width();
+    $('#toplogo').css("margin-top", h / 2 - 21 - 32 - 12 - toplogoSize / 2);
+  }
+
+  toplogoResize();
+  $(window).on('resize', function(){
+    toplogoResize();
+  });
 
 });
