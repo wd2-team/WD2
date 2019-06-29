@@ -609,6 +609,7 @@ img {
 	width: 100%;
 	border-radius: 0;
 	line-height: 16px;
+	padding: 0;
 }
 #wrapperwhite #contact form textarea {
 	border: none;
