@@ -48,8 +48,8 @@
                 <div id="partners" class="mainredchild swiper-slide no_swipe">
                     <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></div>
                     <h1>PARTNERS</h1>
-                    <h2>WANTED PARTNERS<br><span>創造的な仲間と繋がりたい</span></h2>
-                    <p>WE’RE A DYNAMIC GROUP<br><span>私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span>私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span>私達は先駆的な精神によって団結した</span></p>
+                    <h2>WANTED PARTNERS<br><span class="fontnormal">創造的な仲間と繋がりたい</span></h2>
+                    <p>WE’RE A DYNAMIC GROUP<br><span class="fontnormal">私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span class="fontnormal">私達は先駆的な精神によって団結した</span></p>
                     <a href="">JOIN US</a>
                 </div><!-- #partners -->
                 <div id="top" class="mainredchild swiper-slide no_swipe">

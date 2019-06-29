@@ -87,6 +87,10 @@ img {
 	font-size: 0;
 	visibility: hidden;
 }
+.fontnormal {
+	font-weight: normal;
+	letter-spacing: 0.05em;
+}
 
 /* .page */
 .page {
@@ -204,7 +208,7 @@ img {
 #wrapperred #partners h2 {
 	font-size: 20px;
 	margin-top: 40px;
-	line-height: 17px;
+	line-height: 19px;
 }
 #wrapperred #partners h2 span {
 	font-size: 11px;
@@ -422,6 +426,7 @@ img {
 	font-size: 16px;
 	line-height: 16px;
 	margin: 9px 0;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #about #aboutwho p span {
 	font-size: 11px;
@@ -442,6 +447,7 @@ img {
 }
 #wrapperwhite #about #team .teammember p {
 	font-size: 17px;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #about #team .teammember p span {
 	font-size: 14px;
@@ -467,8 +473,9 @@ img {
 }
 #wrapperwhite #about #info dl dd {
 	font-size: 15px;
-	line-height: 13px;
-	margin-bottom: 20px;
+	line-height: 18px;
+	margin-bottom: 16px;
+	font-weight: 600;
 }
 #wrapperwhite #about #info dl dd span {
 	font-size: 10px;
@@ -492,6 +499,7 @@ img {
 	font-size: 16px;
 	line-height: 16px;
 	margin: 9px 0;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #service #servicewho p span {
 	font-size: 11px;
@@ -575,9 +583,12 @@ img {
 	font-size: 20px;
 	line-height: 16px;
 	margin-bottom: 63px;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #contact h2 span {
 	font-size: 11px;
+	line-height: 20px;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #contact form {
 	text-align: left;
@@ -585,9 +596,11 @@ img {
 }
 #wrapperwhite #contact form p label {
 	font-size: 17px;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #contact form p label span {
 	font-size: 12px;
+	line-height: 12px;
 }
 #wrapperwhite #contact form input {
 	border: none;
@@ -595,6 +608,7 @@ img {
 	margin: 20px 0;
 	width: 100%;
 	border-radius: 0;
+	line-height: 16px;
 }
 #wrapperwhite #contact form textarea {
 	border: none;
@@ -631,6 +645,7 @@ img {
 	font-size: 20px;
 	line-height: 16px;
 	margin-bottom: 35px;
+	letter-spacing: 0.04em;
 }
 #wrapperwhite #contact #contactpartners p {
 	font-size: 15px;
@@ -642,6 +657,7 @@ img {
 }
 #wrapperwhite #contact #contactpartners p span {
 	font-size: 10px;
+	letter-spacing: 0.05em;
 }
 #wrapperwhite #contact #contactpartners p a {
 	font-size: 20px;

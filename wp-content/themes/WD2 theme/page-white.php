@@ -134,7 +134,7 @@ Template Name: white page
                         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
                     </header>
                     <h1>CONTACT</h1>
-                    <h2>CREATIVE TECHNOLOGISTS<br><span>私達の役割は創造力を解放する手助けをすることです</span></h2>
+                    <h2>CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達の役割は創造力を解放する手助けをすることです</span></h2>
                     <?php echo do_shortcode( '[contact-form-7 id="5" title="Contactform1"]' ); ?>
                     <div id="contactpartners">
                         <h1>PARTNERS</h1>
