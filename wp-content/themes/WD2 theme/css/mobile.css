@@ -1265,7 +1265,17 @@ img {
 	max-height: 600px;
 	background-color: #af0017;
 	color: #fff;
-	margin: 0 auto 30px auto;
+	margin: 0 auto calc((100vw - 320px) / 3.5 + 36px) auto;
+}
+@media (max-width: 320px) {
+	#wrapperwhite #contact #contactpartners {
+		margin-bottom: 36px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #contact #contactpartners {
+		margin-bottom: 66px;
+	}
 }
 #wrapperwhite #contact #contactpartners h1 {
 	font-size: calc((100vw - 320px) / 11.7 + 30px);
@@ -1449,44 +1459,132 @@ img {
 
 /* single */
 #wrapperwhite #article #articlecontent h1 {
-	margin: 72px 0 70px 0;
+	margin: 0 0 calc((100vh - 568px) / 13.45 + 70px) 0;
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #articlecontent h1 {
+		margin-bottom: 70px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articlecontent h1 {
+		margin-bottom: 90px;
+	}
 }
 #wrapperwhite #article #articlecontent h1 img {
 	width: 100%;
+	max-width: 547px;
 }
 #wrapperwhite #article #articlecontent #thumbinner {
 	position: absolute;
-	top: calc(72px + 75vw);
+	top: calc((100vw - 320px) / 3.9 + 72px + (100vw - 320px) / 1.296 + 251px);
 	left: 0;
 	right: 0;
 	color: #fff;
 }
+@media (min-width: 425px) and (max-width: 547px) {
+	#wrapperwhite #article #articlecontent #thumbinner {
+		top: calc(99px + (100vw - 320px) / 1.296 + 251px);
+	}
+}
+@media (min-width: 547px) {
+	#wrapperwhite #article #articlecontent #thumbinner {
+		top: 525px;
+	}
+}
+#wrapperwhite #article #articlecontent #thumbinner p {
+	font-size: calc((100vw - 320px) / 21 + 15px);
+	margin-bottom: calc((100vw - 320px) / 15);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #articlecontent #thumbinner p {
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articlecontent #thumbinner p {
+		font-size: 20px;
+		margin-bottom: 7px;
+	}
+}
 #wrapperwhite #article #articlecontent #thumbinner ul li a {
 	display: inline-block;
 	width: auto;
-	margin: 0 3px;
+	margin: 0 calc((100vw - 320px) / 17.5 + 6px);
 	color: #fff;
-	font-size: 13px;
+	font-size: calc((100vw - 320px) / 35 + 11px);
 	font-weight: normal;
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #articlecontent #thumbinner ul li a {
+		font-size: 11px;
+		margin: 0 6px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articlecontent #thumbinner ul li a {
+		font-size: 14px;
+		margin: 0 12px;
+	}
 }
 #wrapperwhite #article #articlecontent #thumbinner ul li a:before {
 	content: "#";
 }
 #wrapperwhite #article #articlecontent #articlecontentinner p {
 	text-align: left;
-	margin: 0 7%;
-	font-size: 12px;
-	line-height: 23px;
+	margin: 0 auto;
+	width: calc((100vw - 320px) / 1.2 + 274px);
+	min-width: 274px;
+	max-width: 361px;
+	font-size: calc((100vw - 320px) / 35 + 12px);
+	line-height: calc((100vw - 320px) / 15 + 25px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #articlecontent #articlecontentinner p {
+		font-size: 12px;
+		line-height: 25px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articlecontent #articlecontentinner p {
+		font-size: 15px;
+		line-height: 32px;
+	}
 }
 #wrapperwhite #article #articlecontent #articlecontentinner p:last-child {
-	font-size: 10px;
+	font-size: calc((100vw - 320px) / 35 + 11px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #articlecontent #articlecontentinner p:last-child {
+		font-size: 11px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articlecontent #articlecontentinner p:last-child {
+		font-size: 14px;
+	}
 }
 #wrapperwhite #article #articlecontent #articlecontentinner img {
-	width: 100%;
+	width: calc((100vw - 320px) / 1.2 + 274px);
+	min-width: 274px;
+	max-width: 361px;
 }
 #wrapperwhite #article #related h2 {
-	margin: 70px 0 20px 0;
-	font-size: 17px; 
+	margin: calc((100vw - 320px) / 10.5 + 70px) 0 calc((100vw - 320px) / 7 + 20px) 0;
+	font-size: calc((100vw - 320px) / 11.6 + 17px); 
+}
+@media (max-width: 320px) {
+	#wrapperwhite #article #related h2 {
+		margin: 70px 0 20px 0;
+		font-size: 17px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #related h2 {
+		margin: 80px 0 35px 0;
+		font-size: 26px;
+	}
 }
 #wrapperwhite #article #related p {
 	font-size: 12px;
