@@ -636,21 +636,21 @@ img {
 }
 #wrapperwhite #about #aboutwho p {
 	font-size: calc((100vw - 320px) / 21 + 17px);
-	line-height: calc((100vw - 320px) / 26.25 + 16px);
+	line-height: calc((100vw - 320px) / 26.25 + 21px);
 	margin: calc((100vh - 568px) / 44.8 + 9px) 0;
 	letter-spacing: 0.05em;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #about #aboutwho p {
 		font-size: 17px;
-		line-height: 16px;
+		line-height: 21px;
 		margin: 9px 0;
 	}
 }
 @media (min-width: 425px) {
 	#wrapperwhite #about #aboutwho p {
 		font-size: 22px;
-		line-height: 20px;
+		line-height: 25px;
 		margin: 15px 0;
 	}
 }
@@ -861,21 +861,21 @@ img {
 }
 #wrapperwhite #service #servicewho p {
 	font-size: calc((100vw - 320px) / 21 + 17px);
-	line-height: calc((100vw - 320px) / 26.25 + 16px);
+	line-height: calc((100vw - 320px) / 26.25 + 21px);
 	margin: calc((100vh - 568px) / 44.8 + 9px) 0;
 	letter-spacing: 0.05em;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #service #servicewho p {
 		font-size: 17px;
-		line-height: 16px;
+		line-height: 21px;
 		margin: 9px 0;
 	}
 }
 @media (min-width: 425px) {
 	#wrapperwhite #service #servicewho p {
 		font-size: 22px;
-		line-height: 20px;
+		line-height: 25px;
 		margin: 15px 0;
 	}
 }
