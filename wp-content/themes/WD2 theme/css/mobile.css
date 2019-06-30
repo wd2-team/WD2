@@ -465,7 +465,7 @@ img {
 	font-size: calc((100vw - 320px) / 26.25 + 10px);
 	transform: scale(0.8);
 	line-height: calc((100vw - 320px) / 26.25 + 10px);
-	margin-top: calc((100vw - 320px) / 26.25 + 3px);
+	margin-top: calc((100vh - 568px) / 67.25 + 3px);
 }
 @media (max-width: 320px) {
 	#wrapperred #portfolio #portlist a span.porturl {
@@ -618,7 +618,7 @@ img {
 #wrapperwhite #about #aboutwho h2 {
 	font-size: calc((100vw - 320px) / 17.5 + 20px);
 	line-height: calc((100vw - 320px) / 15 + 36px);
-	margin-bottom: calc((100vw - 320px) / 2.625 + 40px);
+	margin-bottom: calc((100vh - 568px) / 6.725 + 40px);
 }
 @media (max-width: 320px) {
 	#wrapperwhite #about #aboutwho h2 {
@@ -637,8 +637,7 @@ img {
 #wrapperwhite #about #aboutwho p {
 	font-size: calc((100vw - 320px) / 21 + 17px);
 	line-height: calc((100vw - 320px) / 26.25 + 16px);
-	margin-top: calc((100vw - 320px) / 17.5 + 9px);
-	margin-bottom: calc((100vw - 320px) / 17.5 + 9px);
+	margin: calc((100vh - 568px) / 44.8 + 9px) 0;
 	letter-spacing: 0.05em;
 }
 @media (max-width: 320px) {
@@ -674,7 +673,7 @@ img {
 #wrapperwhite #about #team h2 {
 	font-size: calc((100vw - 320px) / 17.5 + 20px);
 	line-height: calc((100vw - 320px) / 15 + 36px);
-	margin-bottom: calc((100vw - 320px) / 2.625 + 40px);
+	margin-bottom: calc((100vh - 568px) / 6.725 + 40px);
 }
 @media (max-width: 320px) {
 	#wrapperwhite #about #team h2 {
@@ -691,45 +690,134 @@ img {
 	}
 }
 #wrapperwhite #about #team .teammember {
-	margin-bottom: 50px;
+	margin-bottom: calc((100vh - 568px) / 13.45 + 55px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #about #team .teammember {
+		margin-bottom: 55px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #team .teammember {
+		margin-bottom: 75px;
+	}
 }
 #wrapperwhite #about #team .teammember img {
-	width: 170px;
+	width: calc((100vw - 320px) / 1.9 + 170px);
+	min-width: 170px;
+	max-width: 225px;
+	margin-bottom: calc((100vh - 568px) / 44.8 + 9px);
 }
 #wrapperwhite #about #team .teammember p {
-	font-size: 17px;
+	font-size: calc((100vw - 320px) / 35 + 17px);
 	letter-spacing: 0.05em;
 }
+@media (max-width: 320px) {
+	#wrapperwhite #about #team .teammember p {
+		font-size: 17px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #team .teammember p {
+		font-size: 20px;
+	}
+}
 #wrapperwhite #about #team .teammember p span {
-	font-size: 14px;
+	font-size: calc((100vw - 320px) / 35 + 14px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #about #team .teammember p span {
+		font-size: 14px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #team .teammember p span {
+		font-size: 17px;
+	}
 }
 #wrapperwhite #about #info {
-	margin-bottom: 100px;
+	margin-bottom: 117px;
 }
 #wrapperwhite #about #info h2 {
-	font-size: 18px;
-	line-height: 31px;
-	margin-bottom: 45px;
+	font-size: calc((100vw - 320px) / 17.5 + 20px);
+	line-height: calc((100vw - 320px) / 15 + 36px);
+	margin-bottom: calc((100vh - 568px) / 6.725 + 40px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #about #info h2 {
+		font-size: 20px;
+		line-height: 36px;
+		margin-bottom: 40px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #info h2 {
+		font-size: 26px;
+		line-height: 43px;
+		margin-bottom: 80px;
+	}
 }
 #wrapperwhite #about #info dl {
 	text-align: left;
-	width: 280px;
+	width: calc((100vw - 320px) / 1.42 + 276px);
+	min-width: 276px;
+	max-width: 350px;
 	margin: 0 auto;
 }
 #wrapperwhite #about #info dl dt {
-	font-size: 17px;
+	font-size: calc((100vw - 320px) / 26.25 + 17px);
 	border-bottom: 5px solid #000;
 	display: inline-block;
-	margin: 15px 0;
+	margin-bottom: calc((100vh - 568px) / 67.25 + 16px);
+	margin-top: calc((100vh - 568px) / 38.4 + 29px);
+	padding-bottom: calc((100vw - 320px) / 26.25 + 2px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #about #info dl dt {
+		font-size: 17px;
+		padding-bottom: 2px;
+		margin-bottom: 16px;
+		margin-top: 29px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #info dl dt {
+		font-size: 21px;
+		padding-bottom: 6px;
+		margin-bottom: 20px;
+		margin-top: 36px;
+	}
 }
 #wrapperwhite #about #info dl dd {
-	font-size: 15px;
+	font-size: calc((100vw - 320px) / 26.25 + 15px);
+	margin-bottom: calc((100vh - 568px) / 38.4 + 15px);
 	line-height: 18px;
-	margin-bottom: 16px;
 	font-weight: 600;
 }
+@media (max-width: 320px) {
+	#wrapperwhite #about #info dl dd {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #info dl dd {
+		font-size: 19px;
+		margin-bottom: 22px;
+	}
+}
 #wrapperwhite #about #info dl dd span {
-	font-size: 10px;
+	font-size: calc((100vw - 320px) / 52.5 + 10px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite #about #info dl dd span {
+		font-size: 10px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #about #info dl dd span {
+		font-size: 12px;
+	}
 }
 
 /* #service */
