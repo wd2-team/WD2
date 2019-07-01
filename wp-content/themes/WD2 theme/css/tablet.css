@@ -180,7 +180,7 @@ img {
 
 /* .mainredchild */
 #wrapperred #mainred .swiper-container {
-	height: calc(100% - 96px);
+	height: 100%;
 }
 #wrapperred .mainredchild {
 	color: #fff;
@@ -496,11 +496,16 @@ img {
 
 /* footer */
 #wrapperred footer {
-	background-color: #af0017;
-	color: #af0017;
-	height: 96px;
-	font-size: 21px;
-	line-height: 26px;
+	background-color: transparent;
+    color: #af0017;
+    height: 96px;
+    font-size: 21px;
+    line-height: 26px;
+    z-index: 9999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 #wrapperred footer #footerinner {
 	width: 495px;
