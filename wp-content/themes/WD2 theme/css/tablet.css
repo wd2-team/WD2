@@ -574,6 +574,17 @@ img {
 	color: #000;
 	overflow-y: scroll;
 	height: 100%;
+	padding-top: calc((100vw - 320px) / 3.9 + 72px);
+}
+@media (max-width: 320px) {
+	#wrapperwhite .mainwhitechild {
+		padding-top: 72px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite .mainwhitechild {
+		padding-top: 99px;
+	}
 }
 #wrapperwhite .mainwhitechild .swiper-button-prev,
 #wrapperwhite .mainwhitechild .swiper-container-rtl,
