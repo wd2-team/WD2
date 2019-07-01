@@ -42,23 +42,31 @@ Template Name: white page
                         <dl>
                             <dt>NAME</dt>
                             <dd>WD2 / WEB DESIGN AND DEVELOPMENT<br><span>ウェブ・デザイン・アンド・ディベロップメント</span></dd>
+                            <div class="clear"></div>
                             <dt>FOUNDER</dt>
                             <dd>TAKANORI YOSHIOKA<br><span>吉岡 剛規</span></dd>
+                            <div class="clear"></div>
                             <dt>FLOTATION</dt>
                             <dd>2019.05.01</dd>
+                            <div class="clear"></div>
                             <dt>LOCATION</dt>
                             <dd>FUKUOKA , NAGASAKI , JAPAN<br><span>福岡 , 長崎 , 日本</span></dd>
+                            <div class="clear"></div>
                             <dt>SLOGUN</dt>
                             <dd>UNITED BY OUR PIONEERING SPIRIT<br><span>クリエイティビティの解放</span></dd>
+                            <div class="clear"></div>
                             <dt>SERVICE</dt>
                             <dd>WEB SYSTEM SUPPLY<br><span>ウェブサイトシステムの開発・販売</span></dd>
                             <dd>WEB MANAGEMENT<br><span>ウェブサイトの管理</span></dd>
                             <dd>WEB DEVELOPMENT<br><span>ウェブサイトの構築</span></dd>
                             <dd>WEB DIRECTION AND DESIGN<br><span>ウェブサイトのディレクション及びデザイン</span></dd>
+                            <div class="clear"></div>
                             <dt>EMAIL</dt>
                             <dd>hello@wd2.studio</dd>
+                            <div class="clear"></div>
                             <dt>COMPANY</dt>
                             <dd>XIMVERLITE LLC.<br><span>キンバーライト合同会社</span></dd>
+                            <div class="clear"></div>
                         </dl>
                     </div><!-- #info -->
                 </div><!-- #about -->

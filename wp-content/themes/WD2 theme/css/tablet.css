@@ -91,6 +91,12 @@ img {
 	font-weight: normal;
 	letter-spacing: 0.05em;
 }
+.displaysp {
+	display: none;
+}
+.displaytb {
+	display: block;
+}
 
 /* .page */
 .page {
@@ -662,6 +668,7 @@ img {
 }
 #wrapperwhite #about #team {
 	margin-bottom: 117px;
+	font-size: 0;
 }
 #wrapperwhite #about #team h2 {
 	font-size: calc((100vw - 320px) / 17.5 + 20px);
@@ -684,6 +691,8 @@ img {
 }
 #wrapperwhite #about #team .teammember {
 	margin-bottom: calc((100vh - 568px) / 13.45 + 55px);
+	display: inline-block;
+	width: 33.3333%;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #about #team .teammember {
@@ -716,17 +725,7 @@ img {
 	}
 }
 #wrapperwhite #about #team .teammember p span {
-	font-size: calc((100vw - 320px) / 35 + 14px);
-}
-@media (max-width: 320px) {
-	#wrapperwhite #about #team .teammember p span {
-		font-size: 14px;
-	}
-}
-@media (min-width: 425px) {
-	#wrapperwhite #about #team .teammember p span {
-		font-size: 17px;
-	}
+	font-size: 15px;
 }
 #wrapperwhite #about #info {
 	margin-bottom: 117px;
@@ -752,40 +751,26 @@ img {
 }
 #wrapperwhite #about #info dl {
 	text-align: left;
-	width: calc((100vw - 320px) / 1.42 + 276px);
-	min-width: 276px;
-	max-width: 350px;
+	width: 90%;
 	margin: 0 auto;
 }
 #wrapperwhite #about #info dl dt {
-	font-size: calc((100vw - 320px) / 26.25 + 17px);
-	border-bottom: 5px solid #000;
+	font-size: 17px;
 	display: inline-block;
 	margin-bottom: calc((100vh - 568px) / 67.25 + 16px);
-	margin-top: calc((100vh - 568px) / 38.4 + 29px);
+	margin-top: 0;
 	padding-bottom: calc((100vw - 320px) / 26.25 + 2px);
-}
-@media (max-width: 320px) {
-	#wrapperwhite #about #info dl dt {
-		font-size: 17px;
-		padding-bottom: 2px;
-		margin-bottom: 16px;
-		margin-top: 29px;
-	}
-}
-@media (min-width: 425px) {
-	#wrapperwhite #about #info dl dt {
-		font-size: 21px;
-		padding-bottom: 6px;
-		margin-bottom: 20px;
-		margin-top: 36px;
-	}
+	width: 30%;
+	float: left;
+	text-align: right;
 }
 #wrapperwhite #about #info dl dd {
 	font-size: calc((100vw - 320px) / 26.25 + 15px);
 	margin-bottom: calc((100vh - 568px) / 38.4 + 15px);
 	line-height: 18px;
 	font-weight: 600;
+	width: 60%;
+	float: right;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #about #info dl dd {

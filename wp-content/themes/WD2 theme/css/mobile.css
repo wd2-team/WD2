@@ -91,6 +91,12 @@ img {
 	font-weight: normal;
 	letter-spacing: 0.05em;
 }
+.displaysp {
+	display: block;
+}
+.displaytb {
+	display: none;
+}
 
 /* .page */
 .page {
