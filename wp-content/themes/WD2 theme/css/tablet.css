@@ -975,6 +975,10 @@ img {
 #wrapperwhite #article #tagall ul li a:before {
 	content: "#";
 }
+#wrapperwhite #article #articleall ul {
+	font-size: 0;
+	text-align: left;
+}
 #wrapperwhite #article #articleall ul>li {
 	margin-bottom: calc((100vh - 568px) / 15.8 + 85px);
 }
@@ -987,6 +991,11 @@ img {
 	#wrapperwhite #article #articleall ul>li {
 		margin-bottom: 102px;
 	}
+}
+#wrapperwhite #article #articleall ul li.post_list {
+	width: 50%;
+    display: inline-block;
+    text-align: center;
 }
 #wrapperwhite #article #articleall ul li a {
 	display: block;
