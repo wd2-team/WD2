@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
 <div id="wrapperwhite">
+    <header>
+        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
+    </header>
     <div id="mainwhite">
         <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
                 <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
-                    <header>
-                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
-                    </header>
                     <h1>ARTICLE</h1>
                     <div id="tagall">
                         <?php
@@ -54,18 +54,21 @@
         </div><!-- .swiper-container -->
     </div><!-- #mainwhite -->
     <footer>
-        <ul>
-            <li><a href="white-page/#slide1">ABOUT</a></li>
-            <li><a href="white-page/#slide2">SERVICE</a></li>
-            <li><a href="white-page/#slide3">ARTICLE</a></li>
-            <li><a href="white-page/#slide4">CONTACT</a></li>
-        </ul>
-        <ul>
-            <li>© WD2 2019. All rights reserved.</li>
-        </ul>
-        <ul>
-            <li><a href=""><i class="fab fa-instagram"></i></a></li>
-            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-        </ul>
+        <div id="footerinner">
+            <ul>
+                <li><a href="white-page/#slide1">ABOUT</a></li>
+                <li><a href="white-page/#slide2">SERVICE</a></li>
+                <li><a href="white-page/#slide3">ARTICLE</a></li>
+                <li><a href="white-page/#slide4">CONTACT</a></li>
+            </ul>
+            <ul>
+                <li>© WD2 2019. All rights reserved.</li>
+            </ul>
+            <ul>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div><!-- #footerinner -->
+    </footer>
 
 <?php get_footer(); ?>

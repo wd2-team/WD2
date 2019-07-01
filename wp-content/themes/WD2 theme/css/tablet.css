@@ -511,10 +511,13 @@ img {
 	width: 495px;
     margin: 0 auto;
     background-color: #fff;
-    height: 97px;
+    height: 96px;
 }
 #wrapperred footer ul {
-	margin: -1px 49px 6px 49px;
+	margin: 20px 49px 6px 49px;
+}
+#wrapperred footer ul:first-child {
+	margin-top: 0;
 	padding-top: 20px;
 }
 #wrapperred footer ul:nth-child(1) li {
@@ -530,7 +533,7 @@ img {
 #wrapperred footer ul:nth-child(2) {
 	text-align: left;
 	font-size: calc((100vw - 320px) / 35 + 10px);
-	margin: -10px 17px 0 23px;
+	margin: 8px 17px 0 23px;
 }
 @media (max-width: 320px) {
 	#wrapperred footer ul:nth-child(2) {
@@ -545,7 +548,7 @@ img {
 #wrapperred footer ul:nth-child(3) {
 	text-align: right;
 	font-size: 15px;
-	margin: -55px 18px 0 15px;
+	margin: -15px 18px 0 15px;
 }
 #wrapperred footer ul:nth-child(3) li {
 	display: inline-block;
@@ -1387,15 +1390,14 @@ img {
 	width: 495px;
     margin: 0 auto;
     background-color: #af0017;
-    height: 97px;
+    height: 96px;
 }
 #wrapperwhite footer ul {
-	margin: -1px 49px 6px 49px;
-	padding-top: 20px;
+	margin: 20px 49px 6px 49px;
 }
 #wrapperwhite footer ul:nth-child(1) {
 	margin-top: 0;
-	padding-top: 13px;
+	padding-top: 20px;
 }
 #wrapperwhite footer ul:nth-child(1) li {
 	display: inline-block;
@@ -1425,7 +1427,7 @@ img {
 #wrapperwhite footer ul:nth-child(3) {
 	text-align: right;
 	font-size: 15px;
-	margin: -55px 18px 0 15px;
+	margin: -15px 18px 0 15px;
 }
 #wrapperwhite footer ul:nth-child(3) li {
 	display: inline-block;
