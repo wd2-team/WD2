@@ -7,13 +7,13 @@ Template Name: white page
 <?php get_header(); ?>
 
 <div id="wrapperwhite">
+    <header>
+        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
+    </header>
     <div id="mainwhite">
         <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
                 <div id="about" class="mainwhitechild swiper-slide no_swipe" data-hash="slide1">
-                    <header class="sticky">
-                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
-                    </header>
                     <h1>ABOUT</h1>
                     <div id="aboutwho">
                         <h2>WHO WE ARE</h2>
@@ -71,9 +71,6 @@ Template Name: white page
                     </div><!-- #info -->
                 </div><!-- #about -->
                 <div id="service" class="mainwhitechild swiper-slide no_swipe" data-hash="slide2">
-                    <header class="sticky">
-                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
-                    </header>
                     <h1>SERVICE</h1>
                     <div id="servicewho">
                         <h2>WHO WE ARE</h2>
@@ -91,9 +88,6 @@ Template Name: white page
                     </div><!-- #product -->
                 </div><!-- #service -->
                 <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
-                    <header class="sticky">
-                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
-                    </header>
                     <h1>ARTICLE</h1>
                     <div id="tagall">
                         <?php
@@ -138,9 +132,6 @@ Template Name: white page
                     </div><!-- #articleall -->
                 </div><!-- #article -->
                 <div id="contact" class="mainwhitechild swiper-slide no_swipe" data-hash="slide4">
-                    <header class="sticky">
-                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
-                    </header>
                     <h1>CONTACT</h1>
                     <h2>CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達の役割は創造力を解放する手助けをすることです</span></h2>
                     <?php echo do_shortcode( '[contact-form-7 id="5" title="Contactform1"]' ); ?>
