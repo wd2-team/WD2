@@ -107,7 +107,8 @@
             </div><!-- .swiper-wrapper -->
         </div><!-- .swiper-container -->
     </div><!-- #mainred -->
-        <footer>
+    <footer>
+        <div id="footerinner">
             <ul>
                 <li><a href="white-page/#slide1">ABOUT</a></li>
                 <li><a href="white-page/#slide2">SERVICE</a></li>
@@ -121,7 +122,8 @@
                 <li><a href=""><i class="fab fa-instagram"></i></a></li>
                 <li><a href=""><i class="fab fa-twitter"></i></a></li>
             </ul>
-        </footer>
-    </div><!-- #wrapperred -->
+        </div><!-- #footerinner -->
+    </footer>
+</div><!-- #wrapperred -->
 
 <?php get_footer(); ?>
