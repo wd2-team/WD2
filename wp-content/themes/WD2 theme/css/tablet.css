@@ -979,25 +979,23 @@ img {
 	font-size: 0;
 	text-align: left;
 }
-#wrapperwhite #article #articleall ul>li {
-	margin-bottom: calc((100vh - 568px) / 15.8 + 85px);
-}
-@media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul>li {
-		margin-bottom: 85px;
-	}
-}
-@media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul>li {
-		margin-bottom: 102px;
-	}
-}
 #wrapperwhite #article #articleall ul li.post_list {
 	width: 50%;
     display: inline-block;
     text-align: center;
+    margin-bottom: calc((100vh - 568px) / 15.8 + 85px);
 }
-#wrapperwhite #article #articleall ul li a {
+@media (max-width: 320px) {
+	#wrapperwhite #article #articleall ul li.post_list {
+		margin-bottom: 85px;
+	}
+}
+@media (min-width: 425px) {
+	#wrapperwhite #article #articleall ul li.post_list {
+		margin-bottom: 102px;
+	}
+}
+#wrapperwhite #article #articleall ul li.post_list a {
 	display: block;
 	width: calc((100vw - 320px) / 1.69 + 184px);
 	min-width: 184px;
@@ -1007,80 +1005,76 @@ img {
 	font-size: calc((100vw - 320px) / 21 + 13px);
 }
 @media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul li a {
+	#wrapperwhite #article #articleall ul li.post_list a {
 		font-size: 13px;
 	}
 }
 @media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul li a {
+	#wrapperwhite #article #articleall ul li.post_list a {
 		font-size: 18px;
 	}
 }
-#wrapperwhite #article #articleall ul li a img {
+#wrapperwhite #article #articleall ul li.post_list a:nth-child(2) {
+	text-align: left;
+}
+#wrapperwhite #article #articleall ul li.post_list a img {
 	width: calc((100vw - 320px) / 1.69 + 184px);
 	min-width: 184px;
 	max-width: 246px;
 	margin-bottom: calc((100vh - 568px) / 38.4 + 25px);
 }
 @media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul li a img {
+	#wrapperwhite #article #articleall ul li.post_list a img {
 		margin-bottom: 25px;
 	}
 }
 @media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul li a img {
+	#wrapperwhite #article #articleall ul li.post_list a img {
 		margin-bottom: 32px;
 	}
 }
-#wrapperwhite #article #articleall ul li ul {
-	width: calc((100vw - 320px) / 1.13 + 246px);
-	min-width: 246px;
-	max-width: 339px;
+#wrapperwhite #article #articleall ul li.post_list ul {
+	width: calc((100vw - 320px) / 1.69 + 184px);
+	min-width: 184px;
+	max-width: 246px;
 	margin: 0 auto;
 	margin-top: calc((100vh - 568px) / 89.7 + 5px);
 }
 @media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul li ul {
+	#wrapperwhite #article #articleall ul li.post_list ul {
 		margin-top: 5px;
 	}
 }
 @media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul li ul {
+	#wrapperwhite #article #articleall ul li.post_list ul {
 		margin-top: 8px;
 	}
 }
-#wrapperwhite #article #articleall ul li ul li {
+#wrapperwhite #article #articleall ul li.post_list ul li {
 	font-size: calc((100vw - 320px) / 35 + 12px);
 	display: inline-block;
 	margin-bottom: 0;
 }
 @media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul li ul li {
+	#wrapperwhite #article #articleall ul li.post_list ul li {
 		font-size: 12px;
 	}
 }
 @media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul li ul li {
+	#wrapperwhite #article #articleall ul li.post_list ul li {
 		font-size: 15px;
 	}
 }
-#wrapperwhite #article #articleall ul li ul li a {
+#wrapperwhite #article #articleall ul li.post_list ul li a {
 	display: inline-block;
 	width: auto;
 	min-width: 0;
-	margin: 0 calc((100vw - 320px) / 26.25 + 6px);
+	margin: 0 10px;
 }
-@media (max-width: 320px) {
-	#wrapperwhite #article #articleall ul li ul li a {
-		margin: 0 6px;
-	}
+#wrapperwhite #article #articleall ul li.post_list ul li a:first-child {
+	margin-left: 0;
 }
-@media (min-width: 425px) {
-	#wrapperwhite #article #articleall ul li ul li a {
-		margin: 0 10px;
-	}
-}
-#wrapperwhite #article #articleall ul li ul li a:before {
+#wrapperwhite #article #articleall ul li.post_list ul li a:before {
 	content: "#";
 }
 
@@ -1579,6 +1573,8 @@ img {
 }
 #wrapperwhite #article #related ul {
 	text-align: left;
+	width: 70%;
+	margin: 0 auto 50px auto;
 }
 #wrapperwhite #article #related ul li {
 	display: inline-block;
