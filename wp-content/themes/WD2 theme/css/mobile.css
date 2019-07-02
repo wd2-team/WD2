@@ -102,7 +102,6 @@ img {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background-color: #af0017;
 	display: none;
 }
 .landscape img {
@@ -114,6 +113,12 @@ img {
     margin: auto;
     width: 173px;
     height: 321px;
+}
+#wrapperred .landscape {
+	background-color: #af0017;
+}
+#wrapperwhite .landscape {
+	background-color: #af0017;
 }
 
 /* .page */

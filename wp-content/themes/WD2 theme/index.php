@@ -1,6 +1,5 @@
 
 <?php get_header(); ?>
-<div class="landscape"><img src="<?php echo get_template_directory_uri(); ?>/img/roll.svg"></div><!-- .landscape -->
 <div id="port1" class="modal-content">
     <p><a class="modal-close"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a></p>
     <p><img src="<?php echo get_template_directory_uri(); ?>/img/kabukiya.png"></p>
@@ -42,6 +41,7 @@
     <p><a href="#"><span class="porttitle">KABUKIYA</span><br><span class="porturl">www.kabukiya.com</span></a></p>
 </div>
 <div id="wrapperred">
+<div class="landscape"><img src="<?php echo get_template_directory_uri(); ?>/img/roll.svg"></div><!-- .landscape -->
     <div id="mainred">
         <div class="swiper-container" id="swiperred">
             <div class="swiper-wrapper">

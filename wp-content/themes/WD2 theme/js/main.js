@@ -111,5 +111,9 @@ $(function(){
           $('.landscape').hide();
       }
   });
+  
+  $(window).resize(function() {
+    window.location.reload();
+  });
 
 });
