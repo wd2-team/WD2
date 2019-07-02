@@ -111,9 +111,11 @@ $(function(){
           $('.landscape').hide();
       }
   });
-  
+
   $(window).resize(function() {
-    window.location.reload();
+    if (widthSize < heightSize) {
+      window.location.reload();
+    }
   });
 
 });
