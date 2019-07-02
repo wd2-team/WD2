@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="wrapperwhite">
-    <header>
+    <header class="behavior">
         <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo2.png"></a>
     </header>
     <div id="mainwhite">

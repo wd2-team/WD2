@@ -83,10 +83,23 @@ $(function(){
     var toplogoSize = $('#toplogo').width();
     $('#toplogo').css("margin-top", h / 2 - 21 - 32 - 12 - toplogoSize / 2);
   }
-
   toplogoResize();
   $(window).on('resize', function(){
     toplogoResize();
+  });
+
+  //  header 下スクロールで非表示 上スクロールで表示
+  var startPos = 0,winScrollTop = 0;
+  $('.mainwhitechild').on('scroll',function(){
+      winScrollTop = $(this).scrollTop();
+      if (winScrollTop >= startPos) {
+          if(winScrollTop >= 500){
+              $('.behavior').addClass('hide');
+          }
+      } else {
+          $('.behavior').removeClass('hide');
+      }
+      startPos = winScrollTop;
   });
 
 });
