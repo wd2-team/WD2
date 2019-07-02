@@ -596,7 +596,7 @@ img {
 .behavior {
     position: fixed;
     top: 0;
-    transition: .5s;
+    transition: .3s;
     width: 100%;
     z-index: 9999;
 }

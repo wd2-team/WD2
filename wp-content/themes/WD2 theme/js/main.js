@@ -93,7 +93,7 @@ $(function(){
   $('.mainwhitechild').on('scroll',function(){
       winScrollTop = $(this).scrollTop();
       if (winScrollTop >= startPos) {
-          if(winScrollTop >= 500){
+          if(winScrollTop >= 300){
               $('.behavior').addClass('hide');
           }
       } else {
