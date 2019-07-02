@@ -102,4 +102,14 @@ $(function(){
       startPos = winScrollTop;
   });
 
+  $(window).on('load orientationchange resize', function(){
+      if (Math.abs(window.orientation) === 90) {
+          // 横向きになったときの処理
+          $('.landscape').show();
+      } else {
+          // 縦向きになったときの処理
+          $('.landscape').hide();
+      }
+  });
+
 });
