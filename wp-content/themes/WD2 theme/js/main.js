@@ -97,7 +97,7 @@ $(function(){
               $('.behavior').addClass('hide');
           }
       }
-      if (winScrollTop < startPos - 20) {
+      if (winScrollTop < startPos - 10) {
           $('.behavior').removeClass('hide');
       }
       startPos = winScrollTop;
