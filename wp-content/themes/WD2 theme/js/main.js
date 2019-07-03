@@ -111,11 +111,13 @@ $(function(){
           $('.landscape').hide();
       }
   });
-
-  $(window).resize(function() {
-    if (widthSize < heightSize) {
-      window.location.reload();
+  $(window).on('orientationchange resize', function() {
+    if (Math.abs(window.orientation) !== 90) {
+        // ここに回転させた時の処理
+        if (widthSize < heightSize) {
+            window.location.reload();
+        }
     }
-  });
+});
 
 });
