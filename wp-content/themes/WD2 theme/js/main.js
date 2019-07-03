@@ -123,5 +123,6 @@ $(function(){
   // index(white)swiper起動位置トップに戻る
   $('#wrapperwhite').find('#footerinner').find('a').on('click', function(){
     $('.mainwhitechild').animate({ scrollTop: 0 }, '1');
+    $('.behavior').removeClass('hide');
   });
 });
