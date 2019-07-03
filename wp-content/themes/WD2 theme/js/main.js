@@ -96,7 +96,8 @@ $(function(){
           if(winScrollTop >= 300){
               $('.behavior').addClass('hide');
           }
-      } else {
+      }
+      if (winScrollTop < startPos - 20) {
           $('.behavior').removeClass('hide');
       }
       startPos = winScrollTop;
