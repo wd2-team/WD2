@@ -111,7 +111,7 @@ img {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 173px;
+    width: 173px !important;
     height: 321px;
 }
 #wrapperred .landscape {
