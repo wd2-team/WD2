@@ -123,6 +123,9 @@ img {
 #wrapperwhite .landscape {
 	background-color: #af0017;
 }
+div [role="button"] {
+	outline: none;
+}
 
 /* .page */
 .page {

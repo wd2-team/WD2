@@ -112,6 +112,9 @@ img {
 .landscape {
 	display: none!important;
 }
+div [role="button"] {
+	outline: none;
+}
 
 /* .page */
 .page {
