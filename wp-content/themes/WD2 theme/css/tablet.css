@@ -97,6 +97,9 @@ img {
 .displaytb {
 	display: block;
 }
+.nondisplaysp {
+	display: block;
+}
 .landscape {
 	display: none!important;
 }

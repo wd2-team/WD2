@@ -81,10 +81,16 @@ Template Name: white page
                     </div><!-- #servicewho -->
                     <div id="product">
                         <h2>PRODUCT SERVICE</h2>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
-                        <p>www.storesupplysystem.com</p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
-                        <p>www.prism.com</p>
+                        <ul>
+                            <li>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
+                                <p>www.storesupplysystem.com</p>
+                            </li>
+                            <li>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/prism.png">
+                                <p>www.prism.com</p>
+                            </li>
+                        </ul>
                     </div><!-- #product -->
                 </div><!-- #service -->
                 <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
