@@ -1595,3 +1595,117 @@ div [role="button"] {
 #wrapperwhite #article #related ul li a img {
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+/* ここに1024pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: green;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+/* ここに1440pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: blue;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+/* ここに1920pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: purple;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 2560px) {
+/* ここに2560pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: gray;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
