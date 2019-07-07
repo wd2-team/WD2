@@ -1609,3 +1609,72 @@ div [role="button"] {
 #wrapperwhite #article #related ul li a img {
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+/* ここに768pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: green;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+/* ここに1024pxのサイズ */
+
+	#wrapperred #partners h1 {
+		color: blue;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
