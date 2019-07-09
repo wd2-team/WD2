@@ -427,6 +427,9 @@ div [role="button"] {
     background-color: #fff;
     display: inline-block;
     text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #wrapperred #portfolio #portlist .adjust:nth-child(3n - 2) {
 	margin-left: calc(13% / 8 * 2);
