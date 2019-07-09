@@ -24,6 +24,7 @@
     <?php if( is_mobile()) : ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile.css">
     <script src="<?php echo get_template_directory_uri(); ?>/js/modal.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/mobile.js"></script>
     <?php elseif( is_tablet()) : ?>
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/tablet.css">
     <script src="<?php echo get_template_directory_uri(); ?>/js/modal.js"></script>
