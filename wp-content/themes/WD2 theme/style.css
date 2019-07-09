@@ -237,6 +237,7 @@ div [role="button"] {
 	position: absolute;
 	top: 50%;
 	margin-top: -22px;
+	color: pink;
 }
 #wrapperred #partners h2 {
 	font-size: calc((100vw - 320px) / 17.5 + 20px);
@@ -1611,8 +1612,7 @@ div [role="button"] {
 
 
 
-
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (max-width: 1024px) {
 /* ここに1024pxのサイズ */
 
 	#wrapperred #partners h1 {
@@ -1637,7 +1637,7 @@ div [role="button"] {
 
 
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
 /* ここに1440pxのサイズ */
 
 	#wrapperred #partners h1 {
@@ -1657,6 +1657,7 @@ div [role="button"] {
 
 
 }
+
 
 
 
