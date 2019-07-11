@@ -636,7 +636,7 @@ div [role="button"] {
     height: 61px;
     transform: rotate(90deg);
     right: -86px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     margin-top: -22px;
 }
@@ -833,8 +833,8 @@ div [role="button"] {
     width: 306px;
     height: 61px;
     transform: rotate(90deg);
-    right: -86px;
-    position: absolute;
+    right: calc(-100% - 86px);
+    position: fixed;
     top: 50%;
     margin-top: -22px;
 }
@@ -950,8 +950,8 @@ div [role="button"] {
     width: 306px;
     height: 61px;
     transform: rotate(90deg);
-    right: -86px;
-    position: absolute;
+    right: calc(-200% - 86px);
+    position: fixed;
     top: 50%;
     margin-top: -22px;
 }
@@ -1109,8 +1109,8 @@ div [role="button"] {
     width: 306px;
     height: 61px;
     transform: rotate(90deg);
-    right: -86px;
-    position: absolute;
+    right: calc(-300% - 86px);
+    position: fixed;
     top: 50%;
     margin-top: -22px;
 }
