@@ -8,7 +8,7 @@
         <div class="swiper-container" id="swiperwhite">
             <div class="swiper-wrapper">
                 <div id="article" class="mainwhitechild swiper-slide no_swipe" data-hash="slide3">
-                    <h1 class="nondisplaysp">ARTICLE</h1>
+                    <h1 class="nondisplaysp articleh1">ARTICLE</h1>
                     <div id="articlecontent">
                         <?php if(have_posts()): while(have_posts()):the_post(); ?>
                             <h1><?php if(has_post_thumbnail()): ?>

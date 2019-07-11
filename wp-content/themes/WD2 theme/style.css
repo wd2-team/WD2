@@ -955,6 +955,9 @@ div [role="button"] {
     top: 50%;
     margin-top: -22px;
 }
+#wrapperwhite #article h1.articleh1 {
+	right: -86px;
+}
 #wrapperwhite #article #tagall ul {
 	text-align: center;
 	width: calc((100vw - 320px) / 1.36 + 278px);
