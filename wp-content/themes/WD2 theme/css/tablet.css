@@ -1629,7 +1629,7 @@ div [role="button"] {
 
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 /* ここに768pxのサイズ */
 
 	#wrapperred #partners h1 {
@@ -1781,6 +1781,7 @@ div [role="button"] {
 	    margin-bottom: 90px;
 	}
 
+}
 
 
 
@@ -1796,12 +1797,40 @@ div [role="button"] {
 
 
 
-
-@media (min-width: 1024px) {
-/* ここに1024pxのサイズ */
+@media screen and (min-width: 1024px) {
+/* ここに1024pxのサイズ縦向き */
 
 	#wrapperred #partners h1 {
 		color: blue;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+/* ここに1024pxのサイズ横向き */
+
+	#wrapperred #partners h1 {
+		color: orange;
 	}
 
 
