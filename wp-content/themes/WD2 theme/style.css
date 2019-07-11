@@ -996,6 +996,10 @@ div [role="button"] {
 #wrapperwhite #article #tagall ul li a:before {
 	content: "#";
 }
+#wrapperwhite #article #articleall {
+	width: 60%;
+	margin: 0 auto;
+}
 #wrapperwhite #article #articleall ul {
 	font-size: 0;
 	text-align: left;
@@ -1608,13 +1612,6 @@ div [role="button"] {
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
 /* ここに1024pxのサイズ */
 
@@ -1657,8 +1654,6 @@ div [role="button"] {
 
 
 
-
-
 }
 
 
@@ -1666,13 +1661,34 @@ div [role="button"] {
 
 
 
+@media (min-width: 1441px) and (max-width: 1919px) {
+/* ここは飛ばす */
 
+	#wrapperred #partners h1 {
+		color: yellow;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 @media (min-width: 1920px) and (max-width: 2559px) {
 /* ここに1920pxのサイズ */
 
 	#wrapperred #partners h1 {
 		color: purple;
 	}
+
 
 
 
@@ -1712,4 +1728,26 @@ div [role="button"] {
 
 
 
+
 }
+
+
+
+
+
+@media (min-width: 1440px) {
+	/* ここは飛ばす */
+	#wrapperwhite #article #tagall {
+		position: absolute;
+	}
+	#wrapperwhite #article #tagall ul {
+		text-align: left;
+		min-width: auto;
+		max-width: none;
+		width: auto;
+	}
+	#wrapperwhite #article #tagall ul li {
+		display: block;
+	}
+}
+
