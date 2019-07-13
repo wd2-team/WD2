@@ -9,7 +9,7 @@ $(function(){
   	},
     initialSlide: 1,
 		noSwiping: true,
-		// noSwipingClass: 'no_swipe',
+		noSwipingClass: 'no_swipe',
 	});
 
   var mySwiperwhite = new Swiper('#swiperwhite', {
