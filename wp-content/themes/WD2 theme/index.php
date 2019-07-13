@@ -49,7 +49,8 @@
                     <div class="swiper-button-next"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg"></div>
                     <h1>PARTNERS</h1>
                     <h2>WANTED PARTNERS<br><span class="fontnormal">創造的な仲間と繋がりたい</span></h2>
-                    <p>WE’RE A DYNAMIC GROUP<br><span class="fontnormal">私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span class="fontnormal">私達は先駆的な精神によって団結した</span></p>
+                    <p class="nondisplaypc">WE’RE A DYNAMIC GROUP<br><span class="fontnormal">私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span class="fontnormal">私達は先駆的な精神によって団結した</span></p>
+                    <p class="displaypc">WE’RE A DYNAMIC GROUP OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神によって団結した創造的なグループです</span><br>UNITED BY OUR PIONEERING SPIRIT</p>
                     <a href="">JOIN US</a>
                 </div><!-- #partners -->
                 <div id="top" class="mainredchild swiper-slide no_swipe">

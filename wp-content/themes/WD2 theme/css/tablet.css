@@ -97,8 +97,14 @@ img {
 .displaytb {
 	display: block;
 }
+.displaypc {
+	display: none;
+}
 .nondisplaysp {
 	display: block;
+}
+.nondisplaypc {
+    display: block;
 }
 .landscape {
 	display: none!important;
@@ -1858,8 +1864,8 @@ div [role="button"] {
 	#wrapperwhite #article #related ul {
     	margin: 0 auto 186px auto;
 	}
-
-
+	#wrapperwhite #article #articlecontent #thumbinner ul li a {
+    	font-size: 20px;
 }
 
 
@@ -1871,11 +1877,6 @@ div [role="button"] {
 	#wrapperred #partners h1 {
 		color: blue;
 	}
-
-
-
-
-
 
 
 
@@ -1900,6 +1901,7 @@ div [role="button"] {
 	#wrapperred #partners h1 {
 		color: orange;
 	}
+
 
 
 

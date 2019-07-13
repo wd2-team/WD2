@@ -106,8 +106,14 @@ img {
 .displaytb {
 	display: block;
 }
+.displaypc {
+    display: block;
+}
 .nondisplaysp {
 	display: block;
+}
+.nondisplaypc {
+    display: none;
 }
 .landscape {
 	display: none!important;
@@ -441,7 +447,7 @@ div [role="button"] {
 }
 #wrapperred #portfolio #portlist .inner {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -1573,7 +1579,7 @@ div [role="button"] {
 }
 #wrapperwhite #article #related h2 {
 	margin: calc((100vw - 320px) / 10.5 + 70px) 0 calc((100vw - 320px) / 7 + 20px) 0;
-	font-size: calc((100vw - 320px) / 11.6 + 17px); 
+	font-size: calc((100vw - 320px) / 11.6 + 17px);
 }
 @media (max-width: 320px) {
 	#wrapperwhite #article #related h2 {
@@ -1620,16 +1626,146 @@ div [role="button"] {
 
 	#wrapperred #partners h1 {
 		color: green;
+        font-size: 48px;
+    }
+	#wrapperred #partners .swiper-button-next img {
+	    width:119px;
+	    min-width: auto;
+	    max-width: none;
 	}
-
-
-
-
-
-
-
-
-
+	#wrapperred #partners h2 {
+	    font-size: 33px;
+	    line-height: 41px;
+        margin-top: 73px;
+	}
+    #wrapperred #partners p {
+        font-size: 25px;
+        margin-top: 90px;
+        margin-bottom: 67px;
+    }
+    #wrapperred #partners p span {
+        line-height: 58px;
+    }
+    #wrapperred #partners a {
+        font-size: 28px;
+    }
+    #wrapperred #top #toplogo {
+        width: 138px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperred #top .swiper-button-prev {
+        font-size: 48px;
+    }
+    #wrapperred #top .swiper-button-next {
+        font-size: 48px;
+    }
+    #wrapperred footer ul:nth-child(2) {
+        font-size: 12px;
+        margin: 8px 17px 0 62px;
+    }
+    #wrapperred footer ul:nth-child(3) {
+        margin: -26px 53px 0 15px;
+    }
+    #wrapperred #portfolio .swiper-button-prev img {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperred #portfolio h1 {
+        font-size: 48px;
+    }
+    #wrapperred #portfolio #portlist a span.porttitle {
+        font-size: 19px;
+        line-height: 13px;
+    }
+    #wrapperwhite header a img {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite header a {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite .mainwhitechild {
+        padding-top: 215px;
+    }
+    #wrapperwhite #about h1 {
+        font-size: 48px;
+    }
+    #wrapperwhite #about #aboutwho h2 {
+        font-size: 40px;
+        margin-bottom: 117px;
+    }
+    #wrapperwhite #about #aboutwho p {
+        font-size: 25px;
+    }
+    #wrapperwhite #about #aboutwho p span {
+        font-size: 15px;
+    }
+    #wrapperwhite #about #aboutwho {
+        margin-bottom: 219px;
+    }
+    #wrapperwhite #about #team h2 {
+        font-size: 40px;
+        margin-bottom: 118px;
+    }
+    #wrapperwhite #about #team .teammember img {
+        width: 252px;
+        min-width: auto;
+        max-width: none;
+        margin-bottom: 32px;
+    }
+    #wrapperwhite #about #info h2 {
+        font-size: 40px;
+        margin-bottom: 118px;
+    }
+    #wrapperwhite #about #info dl dt {
+        font-size: 25px;
+    }
+    #wrapperwhite #about #info dl dd {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    #wrapperwhite #about #info dl dd span {
+        font-size: 15px;
+    }
+    #wrapperwhite #about #info {
+        margin-bottom: 300px;
+    }
+    #wrapperwhite #service h1 {
+        font-size: 48px;
+    }
+    #wrapperwhite #service #servicewho h2 {
+        font-size: 40px;
+        margin-bottom: 121px;
+    }
+    #wrapperwhite #service #servicewho p {
+        font-size: 25px;
+    }
+    #wrapperwhite #service #servicewho {
+        margin-bottom: 225px;
+    }
+    #wrapperwhite #service #product h2 {
+        font-size: 40px;
+        margin-bottom: 108px;
+    }
+    #wrapperwhite #service #product img {
+        width: 150px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #service #product ul li {
+        width: 35%;
+    }
+    #wrapperwhite #service #product {
+        margin-bottom: 256px;
+    }
+    #wrapperwhite #article h1 {
+        font-size: 48px;
+    }
 
 
 
@@ -1753,4 +1889,3 @@ div [role="button"] {
 		display: block;
 	}
 }
-
