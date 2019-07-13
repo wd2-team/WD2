@@ -1778,8 +1778,75 @@ div [role="button"] {
 	#wrapperwhite #contact h1 {
     	font-size: 50px;
 	    margin-top: 90px;
-	    margin-bottom: 90px;
+	    margin-bottom: 73px;
 	}
+	#wrapperwhite #contact form p label {
+    	font-size: 25px;
+	}
+	#wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
+    	width: 256px;
+    	min-width: auto;
+    	max-width: none;
+    	height: 68px;
+		padding-left: 0;
+		line-height: 60px;
+	}
+	#wrapperwhite #contact form {
+	    width: 600px;
+	    min-width: auto;
+	    max-width: none;
+	}
+	#wrapperwhite #contact form input {
+	    font-size: 17px;
+	    padding-bottom: 27px;
+	    padding-left: 180px;
+	}
+	#wrapperwhite #contact #contactpartners {
+    	width: 600px;
+    	min-width: auto;
+    	max-width: none;
+		margin-bottom: 177px;
+ 	}
+	#wrapperwhite #contact #contactpartners h1 {
+	    font-size: 52px;
+		padding-top: 95px;
+		margin-bottom: 85px;
+	}
+	#wrapperwhite #contact #contactpartners h2 {
+	    font-size: 32px;
+	    line-height: 45px;
+	}
+	#wrapperwhite #contact #contactpartners p {
+	    font-size: 24px;
+	    line-height: 33px;
+		letter-spacing: 1px;
+	}
+	#wrapperwhite #contact #contactpartners p a {
+	    font-size: 32px;
+	}
+	#wrapperwhite #contact #contactpartners {
+	    height: 860px;
+	    min-height: auto;
+	    max-height: none;
+	}
+	#wrapperwhite #contact #contactpartners h2 {
+    	margin-bottom: 95px;
+	}
+	#wrapperwhite #contact #contactpartners p:last-child {
+    	margin: 90px 0;
+	}
+	#wrapperred #top p {
+    	margin-top: 31px;
+	}
+
+
+
+
+
+
+
+
+
 
 }
 
