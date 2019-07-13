@@ -1838,28 +1838,29 @@ div [role="button"] {
 	#wrapperred #top p {
     	margin-top: 31px;
 	}
-
-
-
-
-
-
-
-
+	#wrapperwhite footer ul:nth-child(2) {
+	    margin: 7px 29px 0 49px;
+	}
+	#wrapperwhite footer ul:nth-child(3) {
+    	margin: -23px 38px 0 15px;
+	}
+	#wrapperwhite #article #articlecontent #thumbinner p {
+	    font-size: 23px;
+	    margin-top: 230px;
+	}
+	#wrapperwhite #article #articlecontent h1 {
+    	margin-bottom: 105px;
+	}
+	#wrapperwhite #article #related h2 {
+		margin: 80px 0 54px 0;
+    	font-size: 30px;
+	}
+	#wrapperwhite #article #related ul {
+    	margin: 0 auto 186px auto;
+	}
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
