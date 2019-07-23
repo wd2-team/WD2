@@ -1866,12 +1866,13 @@ div [role="button"] {
 	}
 	#wrapperwhite #article #articlecontent #thumbinner ul li a {
     	font-size: 20px;
+    }
 }
 
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (orientation: portrait) {
 /* ここに1024pxのサイズ縦向き */
 
 	#wrapperred #partners h1 {
@@ -1900,6 +1901,34 @@ div [role="button"] {
 
 	#wrapperred #partners h1 {
 		color: orange;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) and (orientation: landscape) {
+/* ここに1440pxのサイズ横向き */
+
+	#wrapperred #partners h1 {
+		color: lightblue;
 	}
 
 
