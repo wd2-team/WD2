@@ -127,8 +127,8 @@ div [role="button"] {
     position: fixed;
     display: none;
     z-index: 2;
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     background: #fff;
@@ -1848,7 +1848,7 @@ div [role="button"] {
 	    margin: 7px 29px 0 49px;
 	}
 	#wrapperwhite footer ul:nth-child(3) {
-    	margin: -23px 38px 0 15px;
+    	margin: -23px 42px 0 15px;
 	}
 	#wrapperwhite #article #articlecontent #thumbinner p {
 	    font-size: 23px;
@@ -1866,6 +1866,10 @@ div [role="button"] {
 	}
 	#wrapperwhite #article #articlecontent #thumbinner ul li a {
     	font-size: 20px;
+	}
+	#wrapperwhite footer ul:nth-child(3) {
+	    font-size: 17px;
+	}
 }
 
 

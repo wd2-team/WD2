@@ -136,8 +136,8 @@ div [role="button"] {
     position: fixed;
     display: none;
     z-index: 2;
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     background: #fff;
@@ -472,7 +472,7 @@ div [role="button"] {
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 	line-height: 14px;
-	width: 140px;
+	width: 100%;
 }
 #wrapperred #portfolio #portlist a span.porttitle {
 	font-size: calc((100vw - 320px) / 15 + 16px);
@@ -1163,6 +1163,10 @@ div [role="button"] {
 	max-width: 500px;
 	margin: 50px auto;
 }
+#wrapperwhite #contact form p {
+    position: relative;
+    border-bottom: 5px solid #000;
+}
 #wrapperwhite #contact form p label {
 	font-size: calc((100vw - 320px) / 26.25 + 16px);
 	letter-spacing: 0.05em;
@@ -1194,9 +1198,15 @@ div [role="button"] {
 		line-height: 26px;
 	}
 }
+#wrapperwhite #contact form p label span.wpcf7-form-control-wrap {
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
 #wrapperwhite #contact form input {
 	border: none;
-	border-bottom: 5px solid #000;
 	margin: calc((100vw - 320px) / 10.5 + 20px) 0;
 	width: 100%;
 	border-radius: 0;
@@ -1221,7 +1231,6 @@ div [role="button"] {
 }
 #wrapperwhite #contact form textarea {
 	border: none;
-	border-bottom: 5px solid #000;
 	margin: 20px 0;
 	width: 100%;
 	border-radius: 0;
@@ -1239,8 +1248,12 @@ div [role="button"] {
 		padding-bottom: 7px;
 	}
 }
+#wrapperwhite #contact form p:nth-child(6) {
+    height: 200px;
+}
 #wrapperwhite #contact form p:nth-child(7) {
 	text-align: center;
+    border: none;
 }
 #wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
     width: calc((100vw - 320px) / 1.75 + 156px);
@@ -1667,6 +1680,9 @@ div [role="button"] {
     #wrapperred footer ul:nth-child(3) {
         margin: -26px 53px 0 15px;
     }
+    #wrapperred footer #footerinner {
+        width: 586px;
+    }
     #wrapperred #portfolio .swiper-button-prev img {
         width: 119px;
         min-width: auto;
@@ -1766,13 +1782,100 @@ div [role="button"] {
     #wrapperwhite #article h1 {
         font-size: 48px;
     }
-
-
-
-
-}
-
-
+    #wrapperwhite #article #tagall ul li {
+        font-size: 20px;
+    }
+    #wrapperwhite #article #tagall ul {
+        margin-bottom: 177px;
+    }
+    #wrapperwhite #article #articleall ul li.post_list a img {
+        width: 305px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #article #articleall {
+        width: 77%;
+    }
+    #wrapperred #portfolio #portlist a span.porttitle {
+        font-size: 19px;
+        line-height: 18px;
+    }
+    #wrapperred #partners .swiper-button-next {
+        width: 119px;
+    }
+    #wrapperwhite #article #articlecontent h1 img {
+        width: 549px;
+        max-width: none;
+    }
+    #wrapperwhite #article #articlecontent #thumbinner p {
+        font-size: 23px;
+        margin-bottom: 9px;
+        margin-top: 150px;
+    }
+    #wrapperwhite #contact h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+        #wrapperwhite #contact h2 span {
+        font-size: 15px;
+    }
+    #wrapperwhite #contact form p label {
+        font-size: 25px;
+    }
+    #wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
+        width: 318px;
+        min-width: auto;
+        max-width: none;
+        height: 85px;
+        min-height: auto;
+    }
+    #wrapperwhite #contact form {
+        width: 822px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #contact form input {
+        padding-bottom: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    #wrapperwhite #contact form p {
+        margin-bottom: 100px;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        padding-top: 177px;
+    }
+    #wrapperwhite #contact #contactpartners {
+        width: 822px;
+        min-width: auto;
+        max-width: none;
+        height: 700px;
+        min-height: auto;
+        max-height: none;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        font-size: 33px;
+        line-height: 41px;
+    }
+    #wrapperwhite #contact #contactpartners p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        margin-bottom: 90px;
+    }
+    #wrapperwhite #contact #contactpartners {
+        margin-bottom: 258px;
+    }
+    #wrapperwhite #contact #contactpartners p a {
+        font-size: 28px;
+    }
+    #wrapperwhite footer ul:nth-child(2) {
+        margin: 7px 16px 0 49px;
+    }
+    #wrapperwhite footer ul:nth-child(3) {
+        margin: -24px 42px 0px 15px;
+    }
 
 
 
@@ -1854,6 +1957,7 @@ div [role="button"] {
 	#wrapperred #partners h1 {
 		color: gray;
 	}
+
 
 
 

@@ -142,11 +142,9 @@ Template Name: white page
                     <h2>CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達の役割は創造力を解放する手助けをすることです</span></h2>
                     <?php echo do_shortcode( '[contact-form-7 id="5" title="Contactform1"]' ); ?>
                     <div id="contactpartners">
-                        <h1>PARTNERS</h1>
                         <h2>WANTED PARTNERS<br><span>創造的な仲間と繋がりたい</span></h2>
-                        <p>WE’RE A DYNAMIC GROUP<br><span>私達は先駆的な精神によって団結した</span></p>
-                        <p>OF CREATIVE TECHNOLOGISTS<br><span>私達は先駆的な精神に団結した創造的な</span></p>
-                        <p>UNITED BY OUR PIONEERING SPIRIT<br><span>私達は先駆的な精神によって団結した</span></p>
+                        <p class="nondisplaypc">WE’RE A DYNAMIC GROUP<br><span class="fontnormal">私達は先駆的な精神によって団結した</span><br>OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神に団結した創造的な</span><br>UNITED BY OUR PIONEERING SPIRIT<br><span class="fontnormal">私達は先駆的な精神によって団結した</span></p>
+                        <p class="displaypc">WE’RE A DYNAMIC GROUP OF CREATIVE TECHNOLOGISTS<br><span class="fontnormal">私達は先駆的な精神によって団結した創造的なグループです</span><br>UNITED BY OUR PIONEERING SPIRIT</p>
                         <p><a href="">JOIN US</a></p>
                     </div><!-- #contactpartners -->
                 </div><!-- #contact -->
