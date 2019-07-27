@@ -47,6 +47,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input, textarea, select, button {
+	font-family: bio-sans, heisei-kaku-gothic-std, "平成角ゴシック体", "平成角ゴシック", "ＭＳ Ｐゴシック", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif !important;
+}
 
 
 
@@ -1866,16 +1869,20 @@ div [role="button"] {
 	}
 	#wrapperwhite #article #articlecontent #thumbinner ul li a {
     	font-size: 20px;
+<<<<<<< HEAD
 	}
 	#wrapperwhite footer ul:nth-child(3) {
 	    font-size: 17px;
 	}
+=======
+    }
+>>>>>>> 7bab09139bb75ae5dde5474c44a27d02c0d7b398
 }
 
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (orientation: portrait) {
 /* ここに1024pxのサイズ縦向き */
 
 	#wrapperred #partners h1 {
@@ -1904,6 +1911,34 @@ div [role="button"] {
 
 	#wrapperred #partners h1 {
 		color: orange;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) and (orientation: landscape) {
+/* ここに1440pxのサイズ横向き */
+
+	#wrapperred #partners h1 {
+		color: lightblue;
 	}
 
 

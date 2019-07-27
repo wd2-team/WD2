@@ -56,6 +56,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input, textarea, select, button {
+	font-family: bio-sans, heisei-kaku-gothic-std, "平成角ゴシック体", "平成角ゴシック", "ＭＳ Ｐゴシック", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif !important;
+}
 
 
 
