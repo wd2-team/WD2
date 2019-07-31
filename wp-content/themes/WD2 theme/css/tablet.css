@@ -1869,14 +1869,10 @@ div [role="button"] {
 	}
 	#wrapperwhite #article #articlecontent #thumbinner ul li a {
     	font-size: 20px;
-<<<<<<< HEAD
 	}
 	#wrapperwhite footer ul:nth-child(3) {
 	    font-size: 17px;
 	}
-=======
-    }
->>>>>>> 7bab09139bb75ae5dde5474c44a27d02c0d7b398
 }
 
 
@@ -1888,8 +1884,241 @@ div [role="button"] {
 	#wrapperred #partners h1 {
 		color: blue;
 	}
-
-
+	#wrapperred #partners .swiper-button-next img {
+	    width:119px;
+	    min-width: auto;
+	    max-width: none;
+	}
+	#wrapperred #partners h2 {
+	    font-size: 33px;
+	    line-height: 41px;
+        margin-top: 73px;
+	}
+    #wrapperred #partners p {
+        font-size: 25px;
+        margin-top: 90px;
+        margin-bottom: 67px;
+    }
+    #wrapperred #partners p span {
+        line-height: 58px;
+    }
+    #wrapperred #partners a {
+        font-size: 28px;
+    }
+    #wrapperred #top #toplogo {
+        width: 138px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperred #top .swiper-button-prev {
+        font-size: 48px;
+    }
+    #wrapperred #top .swiper-button-next {
+        font-size: 48px;
+    }
+    #wrapperred footer ul:nth-child(2) {
+        font-size: 12px;
+        margin: 8px 17px 0 62px;
+    }
+    #wrapperred footer ul:nth-child(3) {
+        margin: -26px 53px 0 15px;
+    }
+    #wrapperred footer #footerinner {
+        width: 586px;
+    }
+    #wrapperred #portfolio .swiper-button-prev img {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperred #portfolio h1 {
+        font-size: 48px;
+    }
+    #wrapperred #portfolio #portlist a span.porttitle {
+        font-size: 19px;
+        line-height: 13px;
+    }
+    #wrapperwhite header a img {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite header a {
+        width: 119px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite .mainwhitechild {
+        padding-top: 215px;
+    }
+    #wrapperwhite #about h1 {
+        font-size: 48px;
+    }
+    #wrapperwhite #about #aboutwho h2 {
+        font-size: 40px;
+        margin-bottom: 117px;
+    }
+    #wrapperwhite #about #aboutwho p {
+        font-size: 25px;
+    }
+    #wrapperwhite #about #aboutwho p span {
+        font-size: 15px;
+    }
+    #wrapperwhite #about #aboutwho {
+        margin-bottom: 219px;
+    }
+    #wrapperwhite #about #team h2 {
+        font-size: 40px;
+        margin-bottom: 118px;
+    }
+    #wrapperwhite #about #team .teammember img {
+        width: 252px;
+        min-width: auto;
+        max-width: none;
+        margin-bottom: 32px;
+    }
+    #wrapperwhite #about #info h2 {
+        font-size: 40px;
+        margin-bottom: 118px;
+    }
+    #wrapperwhite #about #info dl dt {
+        font-size: 25px;
+    }
+    #wrapperwhite #about #info dl dd {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    #wrapperwhite #about #info dl dd span {
+        font-size: 15px;
+    }
+    #wrapperwhite #about #info {
+        margin-bottom: 300px;
+    }
+    #wrapperwhite #service h1 {
+        font-size: 48px;
+    }
+    #wrapperwhite #service #servicewho h2 {
+        font-size: 40px;
+        margin-bottom: 121px;
+    }
+    #wrapperwhite #service #servicewho p {
+        font-size: 25px;
+    }
+    #wrapperwhite #service #servicewho {
+        margin-bottom: 225px;
+    }
+    #wrapperwhite #service #product h2 {
+        font-size: 40px;
+        margin-bottom: 108px;
+    }
+    #wrapperwhite #service #product img {
+        width: 150px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #service #product ul li {
+        width: 35%;
+    }
+    #wrapperwhite #service #product {
+        margin-bottom: 256px;
+    }
+    #wrapperwhite #article h1 {
+        font-size: 48px;
+    }
+    #wrapperwhite #article #tagall ul li {
+        font-size: 20px;
+    }
+    #wrapperwhite #article #tagall ul {
+        margin-bottom: 177px;
+    }
+    #wrapperwhite #article #articleall ul li.post_list a img {
+        width: 305px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #article #articleall {
+        width: 77%;
+    }
+    #wrapperred #portfolio #portlist a span.porttitle {
+        font-size: 19px;
+        line-height: 18px;
+    }
+    #wrapperred #partners .swiper-button-next {
+        width: 119px;
+    }
+    #wrapperwhite #article #articlecontent h1 img {
+        width: 549px;
+        max-width: none;
+    }
+    #wrapperwhite #article #articlecontent #thumbinner p {
+        font-size: 23px;
+        margin-bottom: 9px;
+        margin-top: 150px;
+    }
+    #wrapperwhite #contact h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+        #wrapperwhite #contact h2 span {
+        font-size: 15px;
+    }
+    #wrapperwhite #contact form p label {
+        font-size: 25px;
+    }
+    #wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
+        width: 318px;
+        min-width: auto;
+        max-width: none;
+        height: 85px;
+        min-height: auto;
+    }
+    #wrapperwhite #contact form {
+        width: 822px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #contact form input {
+        padding-bottom: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    #wrapperwhite #contact form p {
+        margin-bottom: 100px;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        padding-top: 177px;
+    }
+    #wrapperwhite #contact #contactpartners {
+        width: 822px;
+        min-width: auto;
+        max-width: none;
+        height: 700px;
+        min-height: auto;
+        max-height: none;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        font-size: 33px;
+        line-height: 41px;
+    }
+    #wrapperwhite #contact #contactpartners p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #wrapperwhite #contact #contactpartners h2 {
+        margin-bottom: 90px;
+    }
+    #wrapperwhite #contact #contactpartners {
+        margin-bottom: 258px;
+    }
+    #wrapperwhite #contact #contactpartners p a {
+        font-size: 28px;
+    }
+    #wrapperwhite footer ul:nth-child(2) {
+        margin: 7px 16px 0 49px;
+    }
+    #wrapperwhite footer ul:nth-child(3) {
+        margin: -24px 42px 0px 15px;
+    }
 
 
 
