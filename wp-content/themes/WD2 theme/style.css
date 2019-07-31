@@ -1021,6 +1021,7 @@ div [role="button"] {
     display: inline-block;
     text-align: center;
     margin-bottom: calc((100vh - 568px) / 15.8 + 85px);
+    vertical-align: top;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #article #articleall ul li.post_list {
@@ -2071,14 +2072,30 @@ div [role="button"] {
         font-size: 80px;
         right: calc(-200% - 60px);
     }
+    #wrapperwhite #article #articleall ul li.post_list a {
+        width: 363px;
+        min-width: auto;
+        max-width: none;
+        font-size: 18px;
+    }
     #wrapperwhite #article #articleall ul li.post_list a img {
         width: 362px;
         min-width: auto;
         max-width: none;
         margin-bottom: 24px;
     }
+    #wrapperwhite #article #articleall ul li.post_list ul {
+        margin-top: 8px;
+        width: 363px;
+        min-width: auto;
+        max-width: none;
+    }
+    #wrapperwhite #article #articleall ul li.post_list ul li a {
+        margin: 0;
+        margin-right: 20px;
+    }
     #wrapperwhite #article #articleall {
-        width: 83%;
+        width: 68%;
         margin-top: 103px;
     }
     #wrapperwhite #article #tagall ul li {
@@ -2247,6 +2264,9 @@ div [role="button"] {
     #wrapperwhite footer ul:nth-child(3) {
         margin: -26px 71px 0px 15px;
         font-size: 16px;
+    }
+    #wrapperwhite footer {
+        height: 125px;
     }
 }
 
