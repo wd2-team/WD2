@@ -486,7 +486,7 @@ div [role="button"] {
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 	line-height: 14px;
-	width: 140px;
+	width: 100%;
 }
 #wrapperred #portfolio #portlist a span.porttitle {
 	font-size: calc((100vw - 320px) / 15 + 16px);
@@ -1032,7 +1032,7 @@ div [role="button"] {
 	}
 }
 #wrapperwhite #article #tagall ul {
-	text-align: center;
+	text-align: left;
 	width: calc((100vw - 320px) / 1.36 + 278px);
 	min-width: 278px;
 	max-width: 355px;
@@ -1674,10 +1674,11 @@ div [role="button"] {
 }
 #wrapperwhite #article #related ul {
 	text-align: left;
+	font-size: 0;
 }
 #wrapperwhite #article #related ul li {
 	display: inline-block;
-	width: 33%;
+	width: calc(100% / 3);
 }
 #wrapperwhite #article #related ul li a {
 	display: block;

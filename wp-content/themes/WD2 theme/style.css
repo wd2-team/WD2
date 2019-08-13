@@ -1107,7 +1107,7 @@ div [role="button"] {
 	display: inline-block;
 	width: auto;
 	min-width: 0;
-	margin: 0 10px;
+	margin-right: 10px;
 }
 #wrapperwhite #article #articleall ul li.post_list ul li a:first-child {
 	margin-left: 0;
@@ -1618,10 +1618,11 @@ div [role="button"] {
 	text-align: left;
 	width: 70%;
 	margin: 0 auto 50px auto;
+    font-size: 0;
 }
 #wrapperwhite #article #related ul li {
 	display: inline-block;
-	width: 33%;
+	width: calc(100% / 3);
 }
 #wrapperwhite #article #related ul li a {
 	display: block;
