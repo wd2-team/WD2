@@ -2099,6 +2099,9 @@ div [role="button"] {
         font-size: 21px;
         margin: 15px 61px;
     }
+    #wrapperwhite #article #tagall ul li:first-child {
+    	margin-top: 0;
+    }
     #wrapperwhite #article #articleall {
         width: 68%;
         margin-top: 103px;
@@ -2505,6 +2508,9 @@ div [role="button"] {
     #wrapperwhite #article #tagall ul li {
         font-size: 21px;
         margin: 15px 119px;
+    }
+    #wrapperwhite #article #tagall ul li:first-child {
+    	margin-top: 0;
     }
     #wrapperwhite #article #articleall {
         width: 55%;
@@ -2918,6 +2924,9 @@ div [role="button"] {
     #wrapperwhite #article #tagall ul li {
         font-size: 28px;
         margin: 28px 119px;
+    }
+    #wrapperwhite #article #tagall ul li:first-child {
+    	margin-top: 0;
     }
     #wrapperwhite #article #articleall {
         width: 55%;
