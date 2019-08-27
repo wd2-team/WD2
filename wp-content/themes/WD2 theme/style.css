@@ -1233,12 +1233,17 @@ div [role="button"] {
 		margin: 30px 0;
 	}
 }
+#wrapperwhite #contact form input:focus,
+#wrapperwhite #contact form textarea:focus {
+	outline: 0;
+}
 #wrapperwhite #contact form textarea {
 	border: none;
 	margin: 20px 0;
 	width: 100%;
 	border-radius: 0;
 	font-size: calc((100vw - 320px) / 26.25 + 12px);
+	resize: none;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #contact form textarea {
@@ -1271,6 +1276,7 @@ div [role="button"] {
     border: 5px solid #000;
     font-weight: bold;
     -webkit-appearance: none;
+    cursor: pointer;
 }
 @media (max-width: 320px) {
 	#wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
@@ -1653,6 +1659,8 @@ div [role="button"] {
 	#wrapperred #partners h1 {
 		color: green;
         font-size: 48px;
+        width: 232px;
+        left: -50px;
     }
 	#wrapperred #partners h2 {
 	    font-size: 33px;
@@ -1672,9 +1680,13 @@ div [role="button"] {
     }
     #wrapperred #top .swiper-button-prev {
         font-size: 48px;
+        width: 232px;
+        left: -50px;
     }
     #wrapperred #top .swiper-button-next {
         font-size: 48px;
+        width: 250px;
+        right: -58px;
     }
     #wrapperred #top #toplogo {
         width: 138px;
@@ -1688,6 +1700,8 @@ div [role="button"] {
     }
     #wrapperred #portfolio h1 {
         font-size: 48px;
+        width: 250px;
+        right: -58px;
     }
     #wrapperred #portfolio #portlist a span.porttitle {
         font-size: 19px;
@@ -2078,6 +2092,9 @@ div [role="button"] {
         font-size: 80px;
         right: calc(-200% - 60px);
     }
+    #wrapperwhite #article #tagall {
+    	margin-top: 103px;
+    }
     #wrapperwhite #article #tagall ul li {
         font-size: 21px;
         margin: 15px 61px;
@@ -2380,7 +2397,8 @@ div [role="button"] {
     }
     #wrapperwhite #about h1 {
         font-size: 90px;
-        right: -55px;
+        width: 350px;
+        right: -70px;
     }
     #wrapperwhite #about #aboutwho {
         margin-bottom: 210px;
@@ -2440,7 +2458,8 @@ div [role="button"] {
 	}
     #wrapperwhite #service h1 {
         font-size: 90px;
-        right: calc(-100% - 55px);
+        width: 350px;
+        right: calc(-100% - 70px);
     }
     #wrapperwhite #service #servicewho h2 {
         font-size: 60px;
@@ -2477,7 +2496,11 @@ div [role="button"] {
     }
     #wrapperwhite #article h1 {
         font-size: 90px;
-        right: calc(-200% - 55px);
+        width: 350px;
+        right: calc(-200% - 70px);
+    }
+    #wrapperwhite #article #tagall {
+    	margin-top: 70px;
     }
     #wrapperwhite #article #tagall ul li {
         font-size: 21px;
@@ -2560,7 +2583,8 @@ div [role="button"] {
     }
     #wrapperwhite #contact h1 {
         font-size: 90px;
-        right: calc(-300% - 55px);
+        width: 350px;
+        right: calc(-300% - 70px);
     }
     #wrapperwhite #contact h2 {
         font-size: 60px;
@@ -2778,7 +2802,8 @@ div [role="button"] {
     }
     #wrapperwhite #about h1 {
         font-size: 130px;
-        right: -30px;
+        width: 500px;
+        right: -100px;
     }
     #wrapperwhite #about #aboutwho {
         margin-bottom: 310px;
@@ -2843,7 +2868,8 @@ div [role="button"] {
 	}
     #wrapperwhite #service h1 {
         font-size: 130px;
-        right: calc(-100% - 30px);
+        width: 500px;
+        right: calc(-100% - 100px);
     }
     #wrapperwhite #service #servicewho {
 	    margin-bottom: 350px;
@@ -2883,7 +2909,11 @@ div [role="button"] {
     }
     #wrapperwhite #article h1 {
         font-size: 130px;
-        right: calc(-200% - 30px);
+        width: 500px;
+        right: calc(-200% - 100px);
+    }
+    #wrapperwhite #article #tagall {
+        margin-top: 175px;
     }
     #wrapperwhite #article #tagall ul li {
         font-size: 28px;
@@ -2966,7 +2996,8 @@ div [role="button"] {
     }
     #wrapperwhite #contact h1 {
         font-size: 130px;
-        right: calc(-300% - 30px);
+        width: 500px;
+        right: calc(-300% - 100px);
     }
     #wrapperwhite #contact h2 {
         font-size: 85px;
@@ -3088,7 +3119,7 @@ div [role="button"] {
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1025px) {
 	/* ここは飛ばす */
 	#wrapperwhite #article #tagall {
 		position: absolute;
