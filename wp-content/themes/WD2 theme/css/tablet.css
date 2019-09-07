@@ -115,6 +115,9 @@ img {
 div [role="button"] {
 	outline: none;
 }
+#wrapperwhite #contact #contactpartners {
+	display: none;
+}
 
 /* .page */
 .page {

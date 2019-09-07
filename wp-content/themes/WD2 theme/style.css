@@ -124,6 +124,9 @@ img {
 div [role="button"] {
 	outline: none;
 }
+#wrapperwhite #contact #contactpartners {
+	display: none;
+}
 
 /* .page */
 .page {
@@ -1209,6 +1212,10 @@ div [role="button"] {
     right: 0;
     top: -20px;
 }
+#wrapperwhite #contact form p label span.wpcf7-form-control-wrap.your-message {
+    width: 100%;
+    top: 24px;
+}
 #wrapperwhite #contact form input {
 	border: none;
 	margin: calc((100vw - 320px) / 10.5 + 20px) 0;
@@ -1850,7 +1857,7 @@ div [role="button"] {
         font-size: 15px;
     }
     #wrapperwhite #contact form {
-        width: 822px;
+        width: 495px;
         min-width: auto;
         max-width: none;
     }
@@ -1864,6 +1871,9 @@ div [role="button"] {
         padding-bottom: 0px;
         font-size: 20px;
         padding-left: 0px;
+    }
+    #wrapperwhite #contact form p label span.wpcf7-form-control-wrap {
+    	width: 325px;
     }
     #wrapperwhite #contact form p:nth-child(7) input[type="submit"] {
         width: 318px;
@@ -2187,7 +2197,7 @@ div [role="button"] {
         margin-top: 90px;
     }
     #wrapperwhite #contact form {
-        width: 822px;
+        width: 689px;
         min-width: auto;
         max-width: none;
     }
@@ -2599,7 +2609,7 @@ div [role="button"] {
         margin-top: 88px;
     }
     #wrapperwhite #contact form {
-        width: 822px;
+        width: 683px;
         min-width: auto;
         max-width: none;
     }
@@ -3018,7 +3028,7 @@ div [role="button"] {
 	    font-size: 25px;
 	}
     #wrapperwhite #contact form {
-        width: 1168px;
+        width: 918px;
         min-width: auto;
         max-width: none;
     }
@@ -3036,6 +3046,9 @@ div [role="button"] {
 	#wrapperwhite #contact form p label span.wpcf7-form-control-wrap {
     	width: 843px;
 	}
+	#wrapperwhite #contact form p label span.wpcf7-form-control-wrap.your-message {
+		top: 45px;
+	}
     #wrapperwhite #contact form input {
         padding-bottom: 0px;
         font-size: 24px;
@@ -3049,7 +3062,7 @@ div [role="button"] {
         min-height: auto;
     }
     #wrapperwhite #contact form textarea {
-        height: 150px;
+        height: 125px;
     }
     #wrapperwhite #contact #contactpartners {
         width: 1989px;
